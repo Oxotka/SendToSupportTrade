@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="a6dec3a2-8297-4996-9e1d-174af75254af">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРасчетов" category="Ref">
+				<xr:TypeId>95f0e7b2-b8f2-44b2-8da1-c84c56208a04</xr:TypeId>
+				<xr:ValueId>c548913c-6733-4bc5-9afe-0360ca6153d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРасчетов" category="Manager">
+				<xr:TypeId>08b636f4-cf01-4b59-9d18-f291198f22b3</xr:TypeId>
+				<xr:ValueId>786e4858-267d-4106-8960-04f6070cb314</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРасчетов" category="List">
+				<xr:TypeId>f3497ea4-2c4f-4b49-8910-fc6ac6ca869d</xr:TypeId>
+				<xr:ValueId>c7beb8e9-3932-45e5-9ecb-07f0091389bd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокРасчетов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="be207380-1f01-4e25-abfb-fe22ca92a231">
+				<Properties>
+					<Name>ПоДоговорамКонтрагентов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="00fc864a-f3bc-4bef-a17e-cd59de39747c">
+				<Properties>
+					<Name>ПоЗаказамНакладным</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2a5366bd-0585-4e1f-b03d-eccbe555c3c5">
+				<Properties>
+					<Name>ПоНакладным</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

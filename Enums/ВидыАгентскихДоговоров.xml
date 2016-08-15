@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="806db78e-0543-4223-8ba0-bc1f9f65094f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыАгентскихДоговоров" category="Ref">
+				<xr:TypeId>ce685084-1b6a-414b-afd2-b4ca753553e4</xr:TypeId>
+				<xr:ValueId>bbdac73d-6023-4051-ae09-90cfe27ed76c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыАгентскихДоговоров" category="Manager">
+				<xr:TypeId>aefa1ac1-e9d1-4924-a818-c98c2f86025c</xr:TypeId>
+				<xr:ValueId>03affac5-d323-4938-b102-ff56c31e493c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыАгентскихДоговоров" category="List">
+				<xr:TypeId>91abf355-b35e-40ff-8cca-c8d58a4a2de5</xr:TypeId>
+				<xr:ValueId>5b2fb3c0-4204-4486-adea-71f10eb5b0cd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыАгентскихДоговоров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="9dcc72ed-5d67-4e6f-874e-f78ee062bf84">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПлатежныхДокументов" category="Ref">
+				<xr:TypeId>bcdbb53c-888e-40b9-98e2-686707bd5017</xr:TypeId>
+				<xr:ValueId>7a302134-9181-40d3-9784-eb54a4c3259b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПлатежныхДокументов" category="Manager">
+				<xr:TypeId>b3bbffaa-adc9-4c31-a2d2-6f93a514d864</xr:TypeId>
+				<xr:ValueId>0bc7b245-159f-49b3-92cf-4f4227984363</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПлатежныхДокументов" category="List">
+				<xr:TypeId>6c9866ad-11dd-45a2-b077-5f354a3eb1f7</xr:TypeId>
+				<xr:ValueId>e8bef8cb-68d6-4f54-819f-22b1bccb8bae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыПлатежныхДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a3d5bdcb-5c21-4eb9-9e45-8f1eaa58b00a">
+				<Properties>
+					<Name>ПлатежноеПоручение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2e85e661-1845-4f08-baa3-7c3fb518aa71">
+				<Properties>
+					<Name>ПлатежныйОрдер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b3801a2d-0918-43dd-a89f-fa58bd100c5d">
+				<Properties>
+					<Name>ПлатежноеТребование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9e2e24c2-a09b-49f6-b40c-700109c5c25a">
+				<Properties>
+					<Name>ИнкассовоеПоручение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="118d507c-68c0-4247-bd16-f04eba676da7">
+				<Properties>
+					<Name>БанковскийОрдер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

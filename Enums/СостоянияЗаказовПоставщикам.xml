@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="a3c3d131-c024-48a8-b452-4d8c00fa5b58">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЗаказовПоставщикам" category="Ref">
+				<xr:TypeId>06790ef7-5eaf-40ef-b8eb-ffbadc5a5188</xr:TypeId>
+				<xr:ValueId>adafdd37-3d08-4481-acf9-2e750362b434</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЗаказовПоставщикам" category="Manager">
+				<xr:TypeId>ba98bebc-228c-4bad-8e43-85f6540b1ae8</xr:TypeId>
+				<xr:ValueId>280b18ef-4fbb-4847-873e-6d2ecce2b6a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЗаказовПоставщикам" category="List">
+				<xr:TypeId>d9bb8cfc-d57b-49a9-8662-bb08a4306c0e</xr:TypeId>
+				<xr:ValueId>77e40698-b4f7-4419-9de2-b8a2bf7c57f0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияЗаказовПоставщикам</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

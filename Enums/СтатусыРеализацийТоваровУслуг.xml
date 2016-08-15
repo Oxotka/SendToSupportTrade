@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="68a3bfe4-1758-4dde-b98d-b1ffecd55b12">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыРеализацийТоваровУслуг" category="Ref">
+				<xr:TypeId>a34e35f3-c4ee-4a70-8a80-eda51ba7faa5</xr:TypeId>
+				<xr:ValueId>72a698f4-722c-47a5-b6a2-1a72fb3a90a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыРеализацийТоваровУслуг" category="Manager">
+				<xr:TypeId>9b470c8a-7ba6-4028-a6db-5a161a6230f7</xr:TypeId>
+				<xr:ValueId>6721dbb5-3875-452e-81fb-3cbbd7468f92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыРеализацийТоваровУслуг" category="List">
+				<xr:TypeId>8e64dedd-b30b-4c8f-b0c3-31a053e70ff8</xr:TypeId>
+				<xr:ValueId>7fc1bac9-b106-4d58-8067-d1a3b01366ba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыРеализацийТоваровУслуг</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="b8355205-e149-455d-b057-f1b7cea4c169">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РейтингиПродажНоменклатуры" category="Object">
+				<xr:TypeId>d60ed1bc-cb2c-4762-b9cd-efb3649b1b1d</xr:TypeId>
+				<xr:ValueId>c48b14ee-116a-4a9b-9fcf-616e5caf98be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РейтингиПродажНоменклатуры" category="Ref">
+				<xr:TypeId>4c490398-ada6-4db1-a06d-df07af576efe</xr:TypeId>
+				<xr:ValueId>c2a9369c-80bd-4510-91e3-d0edd685e0bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РейтингиПродажНоменклатуры" category="Selection">
+				<xr:TypeId>fa482c44-6564-49af-854f-4403229f68a1</xr:TypeId>
+				<xr:ValueId>f22dae8a-a0a1-474a-8a4f-d87a96dffcf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РейтингиПродажНоменклатуры" category="List">
+				<xr:TypeId>2289aba9-cf4d-4f7d-aded-046d567c2d0f</xr:TypeId>
+				<xr:ValueId>8eb630c0-d4c9-44ca-bb80-59292397ebc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РейтингиПродажНоменклатуры" category="Manager">
+				<xr:TypeId>b6044c78-f242-4840-85b9-c426854f72ff</xr:TypeId>
+				<xr:ValueId>0b40004d-964d-48b6-b59a-ed837d6eec8d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РейтингиПродажНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

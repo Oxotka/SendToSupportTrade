@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="fa2529dd-ac83-40b4-87f9-973a4bdfd508">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаВозвратТоваровОтКлиента" category="Object">
+				<xr:TypeId>7321e00b-461c-4096-850a-580c25c17f31</xr:TypeId>
+				<xr:ValueId>78a1be01-4faa-4e46-a2c2-d391611528b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента" category="Ref">
+				<xr:TypeId>52f1e307-85c2-4cda-bb24-348c4009ec3e</xr:TypeId>
+				<xr:ValueId>46755097-8810-41b4-882f-d51751e2a106</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаВозвратТоваровОтКлиента" category="Selection">
+				<xr:TypeId>2a7507fc-feed-4036-ac07-fd33d4d5d23c</xr:TypeId>
+				<xr:ValueId>81bcc7b4-97de-4fc4-b006-c1cb1140db59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаВозвратТоваровОтКлиента" category="List">
+				<xr:TypeId>ddd89ce9-43f4-4d9b-a028-cf903e2ac9e4</xr:TypeId>
+				<xr:ValueId>784add7c-3d9f-42a7-8887-fb8d54c08839</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаВозвратТоваровОтКлиента" category="Manager">
+				<xr:TypeId>d61825d2-7ebc-4cec-8518-611a155ce382</xr:TypeId>
+				<xr:ValueId>f3568741-c85a-4ba2-9f64-044869fc0482</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявкаНаВозвратТоваровОтКлиента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

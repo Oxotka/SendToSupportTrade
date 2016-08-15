@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="bee23fe0-cd5d-4c79-b0ef-46106b0e4920">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БанковскиеСчетаОрганизаций" category="Object">
+				<xr:TypeId>8d2726e6-85a6-4d98-8ade-adc45e597739</xr:TypeId>
+				<xr:ValueId>66c7603a-31c1-4f73-87d6-765ce74aaffd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БанковскиеСчетаОрганизаций" category="Ref">
+				<xr:TypeId>bf6e171a-d4f3-4809-a9cf-6fbe7c7f0726</xr:TypeId>
+				<xr:ValueId>bdbd94c7-0c3c-4c8d-85bb-761dbfb426f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БанковскиеСчетаОрганизаций" category="Selection">
+				<xr:TypeId>0596f731-39cd-431e-9dc4-c41a3929d225</xr:TypeId>
+				<xr:ValueId>da483a14-8ba2-4410-8fe1-b70306554f50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БанковскиеСчетаОрганизаций" category="List">
+				<xr:TypeId>d86f294e-d5d3-4b54-98e5-fa4a926fb787</xr:TypeId>
+				<xr:ValueId>97f44173-8df3-4593-afc2-45de68d31039</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БанковскиеСчетаОрганизаций" category="Manager">
+				<xr:TypeId>07dfe8f1-f2da-4ed6-9d29-08c34afb0384</xr:TypeId>
+				<xr:ValueId>15e2c4e3-cd1b-42e0-a404-c32cc65f73e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БанковскиеСчетаОрганизаций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

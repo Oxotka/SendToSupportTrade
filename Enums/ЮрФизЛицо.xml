@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="fbbe5839-307e-4684-8758-19d2f0be4fa3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЮрФизЛицо" category="Ref">
+				<xr:TypeId>dac925c7-d57a-41ae-aa5f-4810b30490fe</xr:TypeId>
+				<xr:ValueId>347ef6b8-2d22-4706-bdeb-739f5eb544d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЮрФизЛицо" category="Manager">
+				<xr:TypeId>00f48e53-b78c-4d41-bf19-a6ca25b89c28</xr:TypeId>
+				<xr:ValueId>f42864b0-e3e9-4fb4-8a7e-3f107309728b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЮрФизЛицо" category="List">
+				<xr:TypeId>d7e164da-0f69-49db-9d54-f0caa565d61b</xr:TypeId>
+				<xr:ValueId>5d3de960-9d40-422e-9489-1e6b5ddb26c3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЮрФизЛицо</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

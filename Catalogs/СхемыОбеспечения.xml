@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="5f13931b-5212-4cd1-95be-ebd0cc6a1e03">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СхемыОбеспечения" category="Object">
+				<xr:TypeId>9c85a140-8508-46e5-a802-4fc7bba50c5d</xr:TypeId>
+				<xr:ValueId>8431b763-2cdd-45f9-9f38-21e07b711937</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СхемыОбеспечения" category="Ref">
+				<xr:TypeId>a0222a25-b7b9-4a8e-b11c-dbd1a3ad161e</xr:TypeId>
+				<xr:ValueId>e78bb35e-b985-4542-8eab-12b1e8467cf0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СхемыОбеспечения" category="Selection">
+				<xr:TypeId>22ae61c6-1a22-4b07-82f6-889b0d426680</xr:TypeId>
+				<xr:ValueId>88f0059f-139f-4f79-a5d4-74cf846b5de0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СхемыОбеспечения" category="List">
+				<xr:TypeId>d97e18bb-b27d-44b5-9085-954444512015</xr:TypeId>
+				<xr:ValueId>91488591-30e2-4ca6-8b77-5d2f5c16e50b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СхемыОбеспечения" category="Manager">
+				<xr:TypeId>9ff84cfd-a1dd-4458-ae9f-1ce8f3c503f0</xr:TypeId>
+				<xr:ValueId>3b7b3274-de3d-42bf-9100-7301f354de2d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СхемыОбеспечения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

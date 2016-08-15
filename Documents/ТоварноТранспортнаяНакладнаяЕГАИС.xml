@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="3faa5e42-f65c-475e-853b-09d5c19d1c8c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТоварноТранспортнаяНакладнаяЕГАИС" category="Object">
+				<xr:TypeId>60c52498-b784-4790-b8e9-0132da78d2d5</xr:TypeId>
+				<xr:ValueId>0f82e1cf-2882-4785-83ee-8e3072f7653d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТоварноТранспортнаяНакладнаяЕГАИС" category="Ref">
+				<xr:TypeId>cff39177-991f-4c09-a285-5d8e5464455e</xr:TypeId>
+				<xr:ValueId>56ffdc0d-d4c1-404f-a2ec-154711427f79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТоварноТранспортнаяНакладнаяЕГАИС" category="Selection">
+				<xr:TypeId>a78b2c26-a298-4d6a-8f4c-a9641fbd90b3</xr:TypeId>
+				<xr:ValueId>6f7967a9-1edd-4942-95f3-c8025b7e73ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТоварноТранспортнаяНакладнаяЕГАИС" category="List">
+				<xr:TypeId>6d0d2b35-10d6-4866-a797-b47c02ff2268</xr:TypeId>
+				<xr:ValueId>e19b0b18-e0bd-4f2c-aad9-81c87fd337fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТоварноТранспортнаяНакладнаяЕГАИС" category="Manager">
+				<xr:TypeId>a1af3cc5-a269-4735-96db-05e0ed0712dd</xr:TypeId>
+				<xr:ValueId>322bf463-00d6-49ae-842c-7c01fc970f5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТоварноТранспортнаяНакладнаяЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

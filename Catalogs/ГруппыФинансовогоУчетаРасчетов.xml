@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="698b5a98-8702-4002-89b6-d757d76d6aa6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыФинансовогоУчетаРасчетов" category="Object">
+				<xr:TypeId>54b848b3-83db-43d2-b00d-03f3e3ce2d82</xr:TypeId>
+				<xr:ValueId>7fe1ec22-740b-4344-b5e7-6e59509883b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыФинансовогоУчетаРасчетов" category="Ref">
+				<xr:TypeId>8d3404d5-e6cb-47c6-a36a-020b2855479f</xr:TypeId>
+				<xr:ValueId>613c728a-1e2c-454e-be94-f6e67c88dd01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыФинансовогоУчетаРасчетов" category="Selection">
+				<xr:TypeId>1b942351-9211-45a1-b99c-e924ff77be98</xr:TypeId>
+				<xr:ValueId>f97014c5-e389-4917-8f13-3e734a5d91b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыФинансовогоУчетаРасчетов" category="List">
+				<xr:TypeId>43d12b56-12aa-4aea-93e4-3a29630ac9d2</xr:TypeId>
+				<xr:ValueId>39d7003f-c7c2-48ca-b999-4f523a2ad774</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыФинансовогоУчетаРасчетов" category="Manager">
+				<xr:TypeId>07e78baa-1f4f-487e-993e-96b0c8352268</xr:TypeId>
+				<xr:ValueId>5860a758-e608-48be-82e1-a31bc9f62357</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыФинансовогоУчетаРасчетов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

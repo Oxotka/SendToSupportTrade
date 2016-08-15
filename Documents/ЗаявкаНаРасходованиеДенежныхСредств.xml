@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="6f04fd9d-b25e-45bf-b36c-2a73775dea28">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаРасходованиеДенежныхСредств" category="Object">
+				<xr:TypeId>21f355f9-311d-4624-aab5-5b3ac18f93a2</xr:TypeId>
+				<xr:ValueId>a0bddecf-a4c0-40c3-9756-0ebc49530ea6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств" category="Ref">
+				<xr:TypeId>ffebb07e-a17b-4b1c-a692-f6e12e22d0d0</xr:TypeId>
+				<xr:ValueId>b8ab8b28-fef1-4643-bd85-d18aadb1121c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаРасходованиеДенежныхСредств" category="Selection">
+				<xr:TypeId>5e0fc140-328b-4a27-8efb-ba742f5fe385</xr:TypeId>
+				<xr:ValueId>0ce94d5f-7ff2-4c55-8def-77363b4f01da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаРасходованиеДенежныхСредств" category="List">
+				<xr:TypeId>abfa4b9b-9206-4fb8-a8e9-10c04e9a7a51</xr:TypeId>
+				<xr:ValueId>afe4aa99-3296-461e-a1a7-da370d8027ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаРасходованиеДенежныхСредств" category="Manager">
+				<xr:TypeId>01995cc7-6fa2-4fef-9cdd-1f9db310bcd4</xr:TypeId>
+				<xr:ValueId>54cd14d6-3626-4d30-a4f7-e7d50f8ab016</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаявкаНаРасходованиеДенежныхСредств</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

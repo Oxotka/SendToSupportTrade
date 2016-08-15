@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="45729c67-474c-4321-9606-98be508d2d69">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСуммГрафикаКредитовИДепозитов" category="Ref">
+				<xr:TypeId>98329a89-6974-4248-81fa-b34b0a9ac018</xr:TypeId>
+				<xr:ValueId>ddace338-7a1a-4c68-80dc-9ca6a00eea2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСуммГрафикаКредитовИДепозитов" category="Manager">
+				<xr:TypeId>9726f847-ade2-4f9e-9958-687738197a7e</xr:TypeId>
+				<xr:ValueId>56848622-0999-494f-9e65-f5610bf80eac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСуммГрафикаКредитовИДепозитов" category="List">
+				<xr:TypeId>34b414a1-7a80-4e78-9697-e485f292ef86</xr:TypeId>
+				<xr:ValueId>4312c736-1eae-4b05-9be6-4cb3fb5d1e2a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыСуммГрафикаКредитовИДепозитов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

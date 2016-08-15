@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="57ca2fa7-9a77-4d92-af29-81b331b4a56c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкладскиеГруппыНоменклатуры" category="Object">
+				<xr:TypeId>85435aab-4df2-4472-b2b2-da2a197a1b18</xr:TypeId>
+				<xr:ValueId>35f953ad-ee2a-44da-904f-781f9911a606</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкладскиеГруппыНоменклатуры" category="Ref">
+				<xr:TypeId>5655d09c-bd73-45b5-8a6b-c2f3b71ffc39</xr:TypeId>
+				<xr:ValueId>fdcd86e6-afc4-46da-ad39-833221d1f881</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкладскиеГруппыНоменклатуры" category="Selection">
+				<xr:TypeId>9b0ca143-72e0-4f9c-a8af-cdcdc6285c38</xr:TypeId>
+				<xr:ValueId>8f4f1482-d4a8-4cb6-89be-c2ea4635fae0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкладскиеГруппыНоменклатуры" category="List">
+				<xr:TypeId>9b0b1a54-6ced-43ae-8125-15138e8f2ced</xr:TypeId>
+				<xr:ValueId>826f3a79-0215-492f-81a4-6bac76bfc0ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкладскиеГруппыНоменклатуры" category="Manager">
+				<xr:TypeId>c53898b0-dabc-4382-98e4-aeb94d88cbb9</xr:TypeId>
+				<xr:ValueId>0c06668b-7354-4843-b063-be004b67c4da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СкладскиеГруппыНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

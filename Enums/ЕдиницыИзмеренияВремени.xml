@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="acbffb83-4623-488d-a022-4ed39fb7b0db">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЕдиницыИзмеренияВремени" category="Ref">
+				<xr:TypeId>9bcef1f7-39af-4153-9d5b-fca078e26c18</xr:TypeId>
+				<xr:ValueId>f033ddc3-bfff-45c4-81ba-ab74c0831fa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЕдиницыИзмеренияВремени" category="Manager">
+				<xr:TypeId>38551d3c-7ff3-4d76-9528-c9a458781312</xr:TypeId>
+				<xr:ValueId>70b4e1f9-ce5a-4ba7-aea2-020dbeb7e9ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЕдиницыИзмеренияВремени" category="List">
+				<xr:TypeId>d176a32b-de5c-49b4-b301-fedfce9008f2</xr:TypeId>
+				<xr:ValueId>76104c9a-18e8-4a6b-95c7-537bdf3ad5c3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЕдиницыИзмеренияВремени</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4e72b1c2-356f-4793-96d8-a3ec670eed40">
+				<Properties>
+					<Name>Час</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="efccce20-676a-4ea9-acd1-89724862f340">
+				<Properties>
+					<Name>Сутки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d00a7699-d505-49ad-9c30-8b1d390da65a">
+				<Properties>
+					<Name>Месяц</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bd398fe8-c24c-4b39-9bbd-4f6e6bc085c7">
+				<Properties>
+					<Name>Год</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

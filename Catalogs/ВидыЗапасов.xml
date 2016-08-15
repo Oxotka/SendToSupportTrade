@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="2c80927d-d29f-4f60-9a58-86f10f29e134">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЗапасов" category="Object">
+				<xr:TypeId>71b49ec9-c404-4685-9366-ae30a03e4199</xr:TypeId>
+				<xr:ValueId>c7850979-3be2-4af5-8ab0-c759fcdab349</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЗапасов" category="Ref">
+				<xr:TypeId>3ba23be6-40f0-4897-8f6a-0d9cc78bb6db</xr:TypeId>
+				<xr:ValueId>95def767-691e-45ea-915a-90b9c5869ce5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЗапасов" category="Selection">
+				<xr:TypeId>8375cb4e-19dc-4b31-882d-afb2e61e4c4f</xr:TypeId>
+				<xr:ValueId>52d18232-040a-4b55-b093-7be8251b1840</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЗапасов" category="List">
+				<xr:TypeId>efe27d33-dbf8-4628-a465-6d8fdf702b79</xr:TypeId>
+				<xr:ValueId>f42e847c-5ca2-4106-8847-d2c610991b1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЗапасов" category="Manager">
+				<xr:TypeId>2433e0cd-d535-40c1-b531-2e39fa9d833d</xr:TypeId>
+				<xr:ValueId>73971be6-a39c-493c-8eea-129e989d07e4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЗапасов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

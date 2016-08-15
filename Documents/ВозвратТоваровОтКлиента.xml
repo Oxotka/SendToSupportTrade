@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="e5aa2a90-4b90-4e66-a39f-ce3b13735dba">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратТоваровОтКлиента" category="Object">
+				<xr:TypeId>f1b42697-e128-4ea3-adfb-33f3a2d3f266</xr:TypeId>
+				<xr:ValueId>a3e3444c-f24c-4d16-87d7-8127274da73c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратТоваровОтКлиента" category="Ref">
+				<xr:TypeId>e6cb2d90-0575-452e-bab3-199fc3d10354</xr:TypeId>
+				<xr:ValueId>ae62fc49-adea-4f12-a1ca-99ec8fa082f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратТоваровОтКлиента" category="Selection">
+				<xr:TypeId>54679b94-4323-438c-909e-84a3c1361f05</xr:TypeId>
+				<xr:ValueId>6ee19d94-b066-4e75-9fdb-682739aa5857</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратТоваровОтКлиента" category="List">
+				<xr:TypeId>bcc324a3-be22-4133-aa6f-f5a8cea7e96a</xr:TypeId>
+				<xr:ValueId>a413679e-1322-45c3-a701-4d6cc484fd1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратТоваровОтКлиента" category="Manager">
+				<xr:TypeId>b63d66dd-1a38-45ec-b1a4-864ac7c86fc9</xr:TypeId>
+				<xr:ValueId>aaef1546-eff1-47b7-a31a-311ad1472c59</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВозвратТоваровОтКлиента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

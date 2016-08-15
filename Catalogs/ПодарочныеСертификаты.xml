@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="87cd45b8-68ec-4f98-b923-77824ec2077f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПодарочныеСертификаты" category="Object">
+				<xr:TypeId>1febfbe6-6f02-443f-963e-9e954d31fc8a</xr:TypeId>
+				<xr:ValueId>88782975-1edc-4468-8f3c-5aa81c996fcf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПодарочныеСертификаты" category="Ref">
+				<xr:TypeId>ad740b2f-e193-4ec1-a494-d74c97ead681</xr:TypeId>
+				<xr:ValueId>2949c67d-2d78-4946-a489-0774f22275c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПодарочныеСертификаты" category="Selection">
+				<xr:TypeId>fefa6e81-c3b6-4a6f-a01f-df6d537bea8b</xr:TypeId>
+				<xr:ValueId>db797bfd-ce42-4c3f-b80d-ac63e15b1967</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПодарочныеСертификаты" category="List">
+				<xr:TypeId>fdf66517-0638-4c3d-b3c5-52c25b477166</xr:TypeId>
+				<xr:ValueId>393e5fd9-0e39-4353-b68a-4af34f386202</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПодарочныеСертификаты" category="Manager">
+				<xr:TypeId>d8e86d3e-a3d0-4753-95a5-631600896e65</xr:TypeId>
+				<xr:ValueId>b7b753db-b88c-400a-ae91-5630be69a5a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодарочныеСертификаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

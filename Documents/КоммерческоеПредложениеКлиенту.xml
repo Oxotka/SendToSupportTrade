@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Document uuid="121ad1a3-cfca-4bdf-a263-9a23ac6a3b29">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КоммерческоеПредложениеКлиенту" category="Object">
+				<xr:TypeId>de1aa86e-fd0f-4e2e-92c9-517218ff939b</xr:TypeId>
+				<xr:ValueId>de89cef6-581e-445d-b4a6-640d1c67fce9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КоммерческоеПредложениеКлиенту" category="Ref">
+				<xr:TypeId>f6ceeb0a-19fa-4f55-a9b3-5fe49ee3c8bb</xr:TypeId>
+				<xr:ValueId>945f8039-5463-45dd-a78b-e39675d0b848</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КоммерческоеПредложениеКлиенту" category="Selection">
+				<xr:TypeId>43b3452c-dccd-4989-863a-f5c3469d621a</xr:TypeId>
+				<xr:ValueId>97811f2a-d3f8-4bcc-9d51-9d33d0365c46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КоммерческоеПредложениеКлиенту" category="List">
+				<xr:TypeId>f1fb0b06-b5b6-45e1-aa5f-1da2dc91eaa0</xr:TypeId>
+				<xr:ValueId>083a3ba3-4dc7-4e64-9365-5f57d65e5534</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КоммерческоеПредложениеКлиенту" category="Manager">
+				<xr:TypeId>7a9699e1-3526-4d2a-844f-b7b5d6a8f812</xr:TypeId>
+				<xr:ValueId>433cb9a4-c63a-4806-ac53-465391572c8b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КоммерческоеПредложениеКлиенту</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

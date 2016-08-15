@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<InformationRegister uuid="91736a83-51a2-48ba-a5f2-bf7fbd4b031e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ФИОФизическихЛиц" category="Record">
+				<xr:TypeId>7701aae4-9287-4bb4-9183-742d378880e9</xr:TypeId>
+				<xr:ValueId>5bb22a2a-6f42-4219-84f3-13532077aead</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ФИОФизическихЛиц" category="Manager">
+				<xr:TypeId>f1bf224d-e906-4523-b814-e79e83293738</xr:TypeId>
+				<xr:ValueId>5e71ecce-b4e8-4688-82c9-72e61ebd7e77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ФИОФизическихЛиц" category="Selection">
+				<xr:TypeId>6209cabe-ea75-4e9f-a4b7-701e37587b13</xr:TypeId>
+				<xr:ValueId>ad807516-44f9-4a0d-8048-f835f77be70b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ФИОФизическихЛиц" category="List">
+				<xr:TypeId>e26943c6-db1a-4e27-bce2-f177d870a8b6</xr:TypeId>
+				<xr:ValueId>9678e01e-133c-4f18-9735-872de6ad86d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ФИОФизическихЛиц" category="RecordSet">
+				<xr:TypeId>219c9839-848e-4ca4-8a58-b5c2a0d79e90</xr:TypeId>
+				<xr:ValueId>f3758813-9aee-4982-83b7-ac03cf6f5157</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ФИОФизическихЛиц" category="RecordKey">
+				<xr:TypeId>d2e071a8-e7b5-42b4-8e28-1e5a35ef9ba6</xr:TypeId>
+				<xr:ValueId>96c44c0c-c7a9-4c63-9fa9-e82c3ee958f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ФИОФизическихЛиц" category="RecordManager">
+				<xr:TypeId>bb1da3de-0047-4298-a29a-e30135220ccc</xr:TypeId>
+				<xr:ValueId>29658f5d-4f8f-4d02-932b-309b63ebc940</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФИОФизическихЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

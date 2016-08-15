@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="29b4e973-d452-4bc7-b8e0-775024a0a91e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыДоговоровКонтрагентов" category="Ref">
+				<xr:TypeId>8edc7c99-1a40-4e15-87a3-5a17115a64b5</xr:TypeId>
+				<xr:ValueId>3af46e94-3c54-4229-8c75-a62ae0cf0df7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыДоговоровКонтрагентов" category="Manager">
+				<xr:TypeId>de0c346a-1993-4eb2-9add-547b6818f470</xr:TypeId>
+				<xr:ValueId>ca8466ad-2cf8-415b-86e2-2d5e650f0fb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыДоговоровКонтрагентов" category="List">
+				<xr:TypeId>f9e6c01c-1631-46d5-ade8-36e2d109ccf4</xr:TypeId>
+				<xr:ValueId>d0a34df2-3ac7-491d-afc9-305cce32c155</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыДоговоровКонтрагентов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
