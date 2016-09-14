@@ -82,6 +82,7 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Properties>
 			</Attribute>

@@ -493,6 +493,7 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -511,6 +512,7 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -678,6 +680,51 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ГруппыДоступаНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb413ced-3957-4996-ab9c-5b58919bed20">
+				<Properties>
+					<Name>КиЗГИСМСпособВыпускаВОборот</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыВыпускаВОборотГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="afb2919c-102c-4b0b-bbf9-b15dcc9b9b7a">
+				<Properties>
+					<Name>КиЗГИСМGTIN</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.GTIN</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3aa64f30-1413-45df-aa7a-6fd65ed9b81d">
+				<Properties>
+					<Name>СырьевойТовар</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1f341aa4-2ee7-4794-98cb-710db995bc2e">
+				<Properties>
+					<Name>КиЗГИСМРазмер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.РазмерыКиЗГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="19dafd57-210d-43a7-b211-48fe8da95e75">
+				<Properties>
+					<Name>КиЗГИСМВид</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыКиЗГИСМ</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>

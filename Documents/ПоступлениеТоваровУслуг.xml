@@ -119,15 +119,6 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a6084c9e-c8f6-450b-b2a9-7e3075a8e539">
-				<Properties>
-					<Name>ТоварноТранспортнаяНакладнаяЕГАИС</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:DocumentRef.ТоварноТранспортнаяНакладнаяЕГАИС</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
 			<Attribute uuid="e52de3c6-d2c3-4f2c-b622-70ade2ba70f6">
 				<Properties>
 					<Name>ПоступлениеПоЗаказам</Name>
@@ -512,6 +503,15 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:EnumRef.ПорядокРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2c1bef66-f3ee-4fd3-8420-75e4adc581e6">
+				<Properties>
+					<Name>ТоварноТранспортнаяНакладнаяЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ТТНВходящаяЕГАИС</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>

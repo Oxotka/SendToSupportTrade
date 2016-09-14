@@ -869,10 +869,10 @@
 							<ChildItems>
 								<LabelDecoration name="ДекорацияЗаголовокОплата" id="1502">
 									<HorizontalStretch>false</HorizontalStretch>
-									<Title formatted="true">
+									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Оплата:&lt;font Verve&gt;&lt;fontsize 8&gt;        &lt;/&gt;&lt;/&gt;</v8:content>
+											<v8:content>Оплата:        </v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияЗаголовокОплатаКонтекстноеМеню" id="1503"/>
@@ -4195,8 +4195,8 @@
 				</v8:NumberQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
+				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="ПроцентАвтоСкидки" id="26">
@@ -4851,6 +4851,17 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>График исполнения в договоре</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="75">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -10329,6 +10340,17 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>График исполнения в договоре</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="75">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
 					</v8:item>
 				</Title>
 				<Type>

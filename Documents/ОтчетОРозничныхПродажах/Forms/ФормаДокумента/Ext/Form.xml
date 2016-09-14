@@ -24,6 +24,12 @@
 				<CommandName>Form.StandardCommand.Post</CommandName>
 				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="472"/>
 			</Button>
+			<Button name="ФормаОбщаяКомандаПротоколОбменаГИСМ" id="508">
+				<Type>CommandBarButton</Type>
+				<CommandName>CommonCommand.ПротоколОбменаГИСМ</CommandName>
+				<DataPath>Объект.Ref</DataPath>
+				<ExtendedTooltip name="ФормаОбщаяКомандаПротоколОбменаГИСМРасширеннаяПодсказка" id="509"/>
+			</Button>
 			<Popup name="ПодменюСоздатьНаОсновании" id="473">
 				<Title>
 					<v8:item>
@@ -216,6 +222,20 @@
 					<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 					<ExtendedTooltip name="ДатаExtendedTooltip" id="243"/>
 				</InputField>
+				<LabelField name="СтатусГИСМ" id="501">
+					<DataPath>СтатусГИСМПредставление</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус ГИСМ</v8:content>
+						</v8:item>
+					</Title>
+					<Width>26</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="СтатусГИСМКонтекстноеМеню" id="502"/>
+					<ExtendedTooltip name="СтатусГИСМРасширеннаяПодсказка" id="503"/>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаШапка" id="51">
@@ -308,13 +328,33 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<CheckBoxField name="ПоРезультатамИнвентаризации" id="159">
-			<DataPath>Объект.ПоРезультатамИнвентаризации</DataPath>
-			<TitleLocation>Right</TitleLocation>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ПоРезультатамИнвентаризацииКонтекстноеМеню" id="160"/>
-			<ExtendedTooltip name="ПоРезультатамИнвентаризацииExtendedTooltip" id="249"/>
-		</CheckBoxField>
+		<UsualGroup name="ГруппаДопРеквизиты" id="504">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа доп реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа доп реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДопРеквизитыРасширеннаяПодсказка" id="505"/>
+			<ChildItems>
+				<CheckBoxField name="ПоРезультатамИнвентаризации" id="159">
+					<DataPath>Объект.ПоРезультатамИнвентаризации</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПоРезультатамИнвентаризацииКонтекстноеМеню" id="160"/>
+					<ExtendedTooltip name="ПоРезультатамИнвентаризацииExtendedTooltip" id="249"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
 		<Pages name="Страницы" id="13">
 			<Title>
 				<v8:item>
@@ -1464,157 +1504,177 @@
 					<v8:content>Группа сумма документа</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Group>Horizontal</Group>
+			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСуммаДокументаExtendedTooltip" id="319"/>
 			<ChildItems>
-				<LabelDecoration name="ДекорацияИтоги" id="456">
-					<HorizontalStretch>true</HorizontalStretch>
-					<ContextMenu name="ДекорацияИтогиКонтекстноеМеню" id="457"/>
-					<ExtendedTooltip name="ДекорацияИтогиРасширеннаяПодсказка" id="458"/>
-				</LabelDecoration>
-				<UsualGroup name="ГруппаИтого" id="175">
+				<UsualGroup name="ГруппаПодвал" id="506">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Итоговая сумма</v8:content>
+							<v8:content>Группа подвал</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Итоги</v8:content>
+							<v8:content>Группа подвал</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<BackColor>style:ИтогиФон</BackColor>
-					<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="320"/>
+					<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="507"/>
 					<ChildItems>
-						<InputField name="СуммаСкидки" id="194">
-							<DataPath>СуммаСкидки</DataPath>
-							<ReadOnly>true</ReadOnly>
+						<LabelDecoration name="ДекорацияИтоги" id="456">
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="ДекорацияИтогиКонтекстноеМеню" id="457"/>
+							<ExtendedTooltip name="ДекорацияИтогиРасширеннаяПодсказка" id="458"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаИтого" id="175">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Скидка</v8:content>
-								</v8:item>
-							</Title>
-							<HorizontalAlign>Right</HorizontalAlign>
-							<Width>12</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<MarkNegatives>true</MarkNegatives>
-							<Format>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
-								</v8:item>
-							</Format>
-							<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="195"/>
-							<ExtendedTooltip name="СуммаСкидкиExtendedTooltip" id="334"/>
-						</InputField>
-						<Pages name="ГруппаСтраницыВсего" id="176">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа страницы всего</v8:content>
+									<v8:content>Итоговая сумма</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа страницы НДС</v8:content>
+									<v8:content>Итоги</v8:content>
 								</v8:item>
 							</ToolTip>
-							<PagesRepresentation>None</PagesRepresentation>
-							<ExtendedTooltip name="ГруппаСтраницыВсегоExtendedTooltip" id="321"/>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>style:ИтогиФон</BackColor>
+							<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="320"/>
 							<ChildItems>
-								<Page name="СтраницаВсегоСНДС" id="177">
+								<InputField name="СуммаСкидки" id="194">
+									<DataPath>СуммаСкидки</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Страница с НДС</v8:content>
+											<v8:content>Скидка</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<Width>12</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<MarkNegatives>true</MarkNegatives>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+										</v8:item>
+									</Format>
+									<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="195"/>
+									<ExtendedTooltip name="СуммаСкидкиExtendedTooltip" id="334"/>
+								</InputField>
+								<Pages name="ГруппаСтраницыВсего" id="176">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа страницы всего</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Страница с НДС</v8:content>
+											<v8:content>Группа страницы НДС</v8:content>
 										</v8:item>
 									</ToolTip>
-									<ExtendedTooltip name="СтраницаВсегоСНДСExtendedTooltip" id="322"/>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ГруппаСтраницыВсегоExtendedTooltip" id="321"/>
 									<ChildItems>
-										<InputField name="СуммаВсегоСНДС" id="178">
-											<DataPath>СуммаВсего</DataPath>
-											<ReadOnly>true</ReadOnly>
+										<Page name="СтраницаВсегоСНДС" id="177">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Всего с НДС</v8:content>
+													<v8:content>Страница с НДС</v8:content>
 												</v8:item>
 											</Title>
-											<HorizontalAlign>Right</HorizontalAlign>
-											<Width>12</Width>
-											<Format>
+											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+													<v8:content>Страница с НДС</v8:content>
 												</v8:item>
-											</Format>
-											<ContextMenu name="СуммаВсегоСНДСКонтекстноеМеню" id="179"/>
-											<ExtendedTooltip name="СуммаВсегоСНДСExtendedTooltip" id="323"/>
-										</InputField>
-									</ChildItems>
-								</Page>
-								<Page name="СтраницаВсегоБезНДС" id="180">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница без НДС</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница без НДС</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="СтраницаВсегоБезНДСExtendedTooltip" id="324"/>
-									<ChildItems>
-										<InputField name="СуммаВсегоБезНДС" id="181">
-											<DataPath>СуммаВсего</DataPath>
-											<ReadOnly>true</ReadOnly>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницаВсегоСНДСExtendedTooltip" id="322"/>
+											<ChildItems>
+												<InputField name="СуммаВсегоСНДС" id="178">
+													<DataPath>СуммаВсего</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Всего с НДС</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalAlign>Right</HorizontalAlign>
+													<Width>12</Width>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+														</v8:item>
+													</Format>
+													<ContextMenu name="СуммаВсегоСНДСКонтекстноеМеню" id="179"/>
+													<ExtendedTooltip name="СуммаВсегоСНДСExtendedTooltip" id="323"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаВсегоБезНДС" id="180">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Всего</v8:content>
+													<v8:content>Страница без НДС</v8:content>
 												</v8:item>
 											</Title>
-											<HorizontalAlign>Right</HorizontalAlign>
-											<Width>16</Width>
-											<Format>
+											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+													<v8:content>Страница без НДС</v8:content>
 												</v8:item>
-											</Format>
-											<ContextMenu name="СуммаВсегоБезНДСКонтекстноеМеню" id="182"/>
-											<ExtendedTooltip name="СуммаВсегоБезНДСExtendedTooltip" id="325"/>
-										</InputField>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницаВсегоБезНДСExtendedTooltip" id="324"/>
+											<ChildItems>
+												<InputField name="СуммаВсегоБезНДС" id="181">
+													<DataPath>СуммаВсего</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Всего</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalAlign>Right</HorizontalAlign>
+													<Width>16</Width>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+														</v8:item>
+													</Format>
+													<ContextMenu name="СуммаВсегоБезНДСКонтекстноеМеню" id="182"/>
+													<ExtendedTooltip name="СуммаВсегоБезНДСExtendedTooltip" id="325"/>
+												</InputField>
+											</ChildItems>
+										</Page>
 									</ChildItems>
-								</Page>
+								</Pages>
+								<LabelField name="Валюта" id="459">
+									<DataPath>Объект.Валюта</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>4</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ВалютаКонтекстноеМеню" id="460"/>
+									<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="461"/>
+								</LabelField>
 							</ChildItems>
-						</Pages>
-						<LabelField name="Валюта" id="459">
-							<DataPath>Объект.Валюта</DataPath>
-							<TitleLocation>None</TitleLocation>
-							<Width>4</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<ContextMenu name="ВалютаКонтекстноеМеню" id="460"/>
-							<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="461"/>
-						</LabelField>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -1761,8 +1821,8 @@
 				</v8:NumberQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
+				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="СуммаВсего" id="8">
@@ -1878,6 +1938,39 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусГИСМ" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус ГИСМ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.СтатусыИнформированияГИСМ</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СтатусГИСМПредставление" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус ГИСМПредставление</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -2125,6 +2218,12 @@
 					<CommandName>Form.StandardCommand.Post</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="472"/>
 				</Button>
+				<Button name="ФормаОбщаяКомандаПротоколОбменаГИСМ" id="508">
+					<Type>CommandBarButton</Type>
+					<CommandName>CommonCommand.ПротоколОбменаГИСМ</CommandName>
+					<DataPath>Объект.Ref</DataPath>
+					<ExtendedTooltip name="ФормаОбщаяКомандаПротоколОбменаГИСМРасширеннаяПодсказка" id="509"/>
+				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="473">
 					<Title>
 						<v8:item>
@@ -2305,6 +2404,20 @@
 						<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 						<ExtendedTooltip name="ДатаExtendedTooltip" id="243"/>
 					</InputField>
+					<LabelField name="СтатусГИСМ" id="501">
+						<DataPath>СтатусГИСМПредставление</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статус ГИСМ</v8:content>
+							</v8:item>
+						</Title>
+						<Width>26</Width>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="СтатусГИСМКонтекстноеМеню" id="502"/>
+						<ExtendedTooltip name="СтатусГИСМРасширеннаяПодсказка" id="503"/>
+					</LabelField>
 				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаШапка" id="51">
@@ -2397,13 +2510,33 @@
 					</UsualGroup>
 				</ChildItems>
 			</UsualGroup>
-			<CheckBoxField name="ПоРезультатамИнвентаризации" id="159">
-				<DataPath>Объект.ПоРезультатамИнвентаризации</DataPath>
-				<TitleLocation>Right</TitleLocation>
-				<CheckBoxType>Auto</CheckBoxType>
-				<ContextMenu name="ПоРезультатамИнвентаризацииКонтекстноеМеню" id="160"/>
-				<ExtendedTooltip name="ПоРезультатамИнвентаризацииExtendedTooltip" id="249"/>
-			</CheckBoxField>
+			<UsualGroup name="ГруппаДопРеквизиты" id="504">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа доп реквизиты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа доп реквизиты</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаДопРеквизитыРасширеннаяПодсказка" id="505"/>
+				<ChildItems>
+					<CheckBoxField name="ПоРезультатамИнвентаризации" id="159">
+						<DataPath>Объект.ПоРезультатамИнвентаризации</DataPath>
+						<TitleLocation>Right</TitleLocation>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ПоРезультатамИнвентаризацииКонтекстноеМеню" id="160"/>
+						<ExtendedTooltip name="ПоРезультатамИнвентаризацииExtendedTooltip" id="249"/>
+					</CheckBoxField>
+				</ChildItems>
+			</UsualGroup>
 			<Pages name="Страницы" id="13">
 				<Title>
 					<v8:item>
@@ -3553,157 +3686,177 @@
 						<v8:content>Группа сумма документа</v8:content>
 					</v8:item>
 				</ToolTip>
-				<Group>Horizontal</Group>
+				<Group>Vertical</Group>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаСуммаДокументаExtendedTooltip" id="319"/>
 				<ChildItems>
-					<LabelDecoration name="ДекорацияИтоги" id="456">
-						<HorizontalStretch>true</HorizontalStretch>
-						<ContextMenu name="ДекорацияИтогиКонтекстноеМеню" id="457"/>
-						<ExtendedTooltip name="ДекорацияИтогиРасширеннаяПодсказка" id="458"/>
-					</LabelDecoration>
-					<UsualGroup name="ГруппаИтого" id="175">
+					<UsualGroup name="ГруппаПодвал" id="506">
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Итоговая сумма</v8:content>
+								<v8:content>Группа подвал</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Итоги</v8:content>
+								<v8:content>Группа подвал</v8:content>
 							</v8:item>
 						</ToolTip>
 						<Group>Horizontal</Group>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
-						<BackColor>style:ИтогиФон</BackColor>
-						<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="320"/>
+						<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="507"/>
 						<ChildItems>
-							<InputField name="СуммаСкидки" id="194">
-								<DataPath>СуммаСкидки</DataPath>
-								<ReadOnly>true</ReadOnly>
+							<LabelDecoration name="ДекорацияИтоги" id="456">
+								<HorizontalStretch>true</HorizontalStretch>
+								<ContextMenu name="ДекорацияИтогиКонтекстноеМеню" id="457"/>
+								<ExtendedTooltip name="ДекорацияИтогиРасширеннаяПодсказка" id="458"/>
+							</LabelDecoration>
+							<UsualGroup name="ГруппаИтого" id="175">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Скидка</v8:content>
-									</v8:item>
-								</Title>
-								<HorizontalAlign>Right</HorizontalAlign>
-								<Width>12</Width>
-								<HorizontalStretch>false</HorizontalStretch>
-								<MarkNegatives>true</MarkNegatives>
-								<Format>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
-									</v8:item>
-								</Format>
-								<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="195"/>
-								<ExtendedTooltip name="СуммаСкидкиExtendedTooltip" id="334"/>
-							</InputField>
-							<Pages name="ГруппаСтраницыВсего" id="176">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа страницы всего</v8:content>
+										<v8:content>Итоговая сумма</v8:content>
 									</v8:item>
 								</Title>
 								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Группа страницы НДС</v8:content>
+										<v8:content>Итоги</v8:content>
 									</v8:item>
 								</ToolTip>
-								<PagesRepresentation>None</PagesRepresentation>
-								<ExtendedTooltip name="ГруппаСтраницыВсегоExtendedTooltip" id="321"/>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<BackColor>style:ИтогиФон</BackColor>
+								<ExtendedTooltip name="ГруппаИтогоExtendedTooltip" id="320"/>
 								<ChildItems>
-									<Page name="СтраницаВсегоСНДС" id="177">
+									<InputField name="СуммаСкидки" id="194">
+										<DataPath>СуммаСкидки</DataPath>
+										<ReadOnly>true</ReadOnly>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Страница с НДС</v8:content>
+												<v8:content>Скидка</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalAlign>Right</HorizontalAlign>
+										<Width>12</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<MarkNegatives>true</MarkNegatives>
+										<Format>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+											</v8:item>
+										</Format>
+										<ContextMenu name="СуммаСкидкиКонтекстноеМеню" id="195"/>
+										<ExtendedTooltip name="СуммаСкидкиExtendedTooltip" id="334"/>
+									</InputField>
+									<Pages name="ГруппаСтраницыВсего" id="176">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа страницы всего</v8:content>
 											</v8:item>
 										</Title>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Страница с НДС</v8:content>
+												<v8:content>Группа страницы НДС</v8:content>
 											</v8:item>
 										</ToolTip>
-										<ExtendedTooltip name="СтраницаВсегоСНДСExtendedTooltip" id="322"/>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="ГруппаСтраницыВсегоExtendedTooltip" id="321"/>
 										<ChildItems>
-											<InputField name="СуммаВсегоСНДС" id="178">
-												<DataPath>СуммаВсего</DataPath>
-												<ReadOnly>true</ReadOnly>
+											<Page name="СтраницаВсегоСНДС" id="177">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Всего с НДС</v8:content>
+														<v8:content>Страница с НДС</v8:content>
 													</v8:item>
 												</Title>
-												<HorizontalAlign>Right</HorizontalAlign>
-												<Width>12</Width>
-												<Format>
+												<ToolTip>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+														<v8:content>Страница с НДС</v8:content>
 													</v8:item>
-												</Format>
-												<ContextMenu name="СуммаВсегоСНДСКонтекстноеМеню" id="179"/>
-												<ExtendedTooltip name="СуммаВсегоСНДСExtendedTooltip" id="323"/>
-											</InputField>
-										</ChildItems>
-									</Page>
-									<Page name="СтраницаВсегоБезНДС" id="180">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница без НДС</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Страница без НДС</v8:content>
-											</v8:item>
-										</ToolTip>
-										<ExtendedTooltip name="СтраницаВсегоБезНДСExtendedTooltip" id="324"/>
-										<ChildItems>
-											<InputField name="СуммаВсегоБезНДС" id="181">
-												<DataPath>СуммаВсего</DataPath>
-												<ReadOnly>true</ReadOnly>
+												</ToolTip>
+												<ExtendedTooltip name="СтраницаВсегоСНДСExtendedTooltip" id="322"/>
+												<ChildItems>
+													<InputField name="СуммаВсегоСНДС" id="178">
+														<DataPath>СуммаВсего</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Всего с НДС</v8:content>
+															</v8:item>
+														</Title>
+														<HorizontalAlign>Right</HorizontalAlign>
+														<Width>12</Width>
+														<Format>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+															</v8:item>
+														</Format>
+														<ContextMenu name="СуммаВсегоСНДСКонтекстноеМеню" id="179"/>
+														<ExtendedTooltip name="СуммаВсегоСНДСExtendedTooltip" id="323"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+											<Page name="СтраницаВсегоБезНДС" id="180">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Всего</v8:content>
+														<v8:content>Страница без НДС</v8:content>
 													</v8:item>
 												</Title>
-												<HorizontalAlign>Right</HorizontalAlign>
-												<Width>16</Width>
-												<Format>
+												<ToolTip>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+														<v8:content>Страница без НДС</v8:content>
 													</v8:item>
-												</Format>
-												<ContextMenu name="СуммаВсегоБезНДСКонтекстноеМеню" id="182"/>
-												<ExtendedTooltip name="СуммаВсегоБезНДСExtendedTooltip" id="325"/>
-											</InputField>
+												</ToolTip>
+												<ExtendedTooltip name="СтраницаВсегоБезНДСExtendedTooltip" id="324"/>
+												<ChildItems>
+													<InputField name="СуммаВсегоБезНДС" id="181">
+														<DataPath>СуммаВсего</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Всего</v8:content>
+															</v8:item>
+														</Title>
+														<HorizontalAlign>Right</HorizontalAlign>
+														<Width>16</Width>
+														<Format>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
+															</v8:item>
+														</Format>
+														<ContextMenu name="СуммаВсегоБезНДСКонтекстноеМеню" id="182"/>
+														<ExtendedTooltip name="СуммаВсегоБезНДСExtendedTooltip" id="325"/>
+													</InputField>
+												</ChildItems>
+											</Page>
 										</ChildItems>
-									</Page>
+									</Pages>
+									<LabelField name="Валюта" id="459">
+										<DataPath>Объект.Валюта</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<Width>4</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ВалютаКонтекстноеМеню" id="460"/>
+										<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="461"/>
+									</LabelField>
 								</ChildItems>
-							</Pages>
-							<LabelField name="Валюта" id="459">
-								<DataPath>Объект.Валюта</DataPath>
-								<TitleLocation>None</TitleLocation>
-								<Width>4</Width>
-								<HorizontalStretch>false</HorizontalStretch>
-								<ContextMenu name="ВалютаКонтекстноеМеню" id="460"/>
-								<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="461"/>
-							</LabelField>
+							</UsualGroup>
 						</ChildItems>
 					</UsualGroup>
 				</ChildItems>
@@ -3963,6 +4116,39 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать ручные скидки в продажах</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СтатусГИСМ" id="15">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Статус ГИСМ</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:EnumRef.СтатусыИнформированияГИСМ</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="СтатусГИСМПредставление" id="16">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Статус ГИСМПредставление</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="17">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
 					</v8:item>
 				</Title>
 				<Type>

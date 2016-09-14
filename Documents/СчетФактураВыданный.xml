@@ -37,6 +37,7 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -124,6 +125,19 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="206ee0e0-aad9-459a-81d2-8d9e19445b10">
+				<Properties>
+					<Name>КодВидаОперацииНаУменьшение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Properties>
 			</Attribute>

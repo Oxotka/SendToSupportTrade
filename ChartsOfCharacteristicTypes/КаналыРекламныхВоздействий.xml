@@ -31,7 +31,7 @@
 			<Name>КаналыРекламныхВоздействий</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Type>
-				<v8:Type>cfg:CatalogRef.МаркетинговыеМероприятия</v8:Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 			</Type>
 		</Properties>
 		<ChildObjects/>

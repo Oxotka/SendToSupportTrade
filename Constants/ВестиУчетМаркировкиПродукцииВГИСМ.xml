@@ -1,15 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<DefinedType uuid="215a06cd-e727-46a3-ba14-fd1312b045ac">
+	<Constant uuid="31f64d3a-5bf4-4cd8-baea-4f88f1962751">
 		<InternalInfo>
-			<xr:GeneratedType name="DefinedType.Артикул" category="DefinedType">
-				<xr:TypeId>5a775dae-2fd5-4bef-a851-f69215d1f102</xr:TypeId>
-				<xr:ValueId>3860f9c8-6388-45ed-b945-6e0d35db5eed</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ВестиУчетМаркировкиПродукцииВГИСМ" category="Manager">
+				<xr:TypeId>97e2863a-602f-467c-88de-4c91e995a531</xr:TypeId>
+				<xr:ValueId>a1e7a74c-bca9-41e6-99ad-f0698159872a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ВестиУчетМаркировкиПродукцииВГИСМ" category="ValueManager">
+				<xr:TypeId>8e0a2c0d-e8a7-4311-b832-83858cbe18bb</xr:TypeId>
+				<xr:ValueId>59328eb2-69f5-4f64-b45d-3acb337ff822</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Артикул</Name>
+			<Name>ВестиУчетМаркировкиПродукцииВГИСМ</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Properties>
-	</DefinedType>
+	</Constant>
 </MetaDataObject>

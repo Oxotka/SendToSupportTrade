@@ -574,18 +574,6 @@
 							<ContextMenu name="ДекорацияУИПКонтекстноеМеню" id="288"/>
 							<ExtendedTooltip name="ДекорацияУИПРасширеннаяПодсказка" id="289"/>
 						</LabelDecoration>
-						<LabelDecoration name="ДекорацияКодВидаОперации" id="290">
-							<Width>15</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Код вида операции:</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ДекорацияКодВидаОперацииКонтекстноеМеню" id="291"/>
-							<ExtendedTooltip name="ДекорацияКодВидаОперацииРасширеннаяПодсказка" id="292"/>
-						</LabelDecoration>
 						<CheckBoxField name="Выставлен" id="51">
 							<DataPath>Выставлен</DataPath>
 							<Title>
@@ -605,6 +593,17 @@
 							<ContextMenu name="ВыставленКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="ВыставленExtendedTooltip" id="188"/>
 						</CheckBoxField>
+						<LabelDecoration name="ДекорацияКодВидаОперации" id="290">
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код вида операции:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияКодВидаОперацииКонтекстноеМеню" id="291"/>
+							<ExtendedTooltip name="ДекорацияКодВидаОперацииРасширеннаяПодсказка" id="292"/>
+						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаЗначенияШапки" id="293">
@@ -860,41 +859,6 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаКодВидаОперации" id="297">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа код вида операции</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа код вида операции</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаКодВидаОперацииРасширеннаяПодсказка" id="298"/>
-							<ChildItems>
-								<InputField name="КодВидаОперации" id="59">
-									<DataPath>Объект.КодВидаОперации</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<Width>10</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ChoiceButton>true</ChoiceButton>
-									<ContextMenu name="КодВидаОперацииКонтекстноеМеню" id="60"/>
-									<ExtendedTooltip name="КодВидаОперацииExtendedTooltip" id="197"/>
-								</InputField>
-								<LabelField name="ПредставлениеВидаОперации" id="299">
-									<DataPath>ПредставлениеВидаОперации</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<ContextMenu name="ПредставлениеВидаОперацииКонтекстноеМеню" id="300"/>
-									<ExtendedTooltip name="ПредставлениеВидаОперацииРасширеннаяПодсказка" id="301"/>
-								</LabelField>
-							</ChildItems>
-						</UsualGroup>
 						<UsualGroup name="ГруппаВыставлен" id="53">
 							<Title>
 								<v8:item>
@@ -937,8 +901,135 @@
 								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаКодВидаОперации" id="297">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа код вида операции</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа код вида операции на увеличение</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКодВидаОперацииРасширеннаяПодсказка" id="298"/>
+							<ChildItems>
+								<InputField name="КодВидаОперации" id="59">
+									<DataPath>Объект.КодВидаОперации</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceButton>true</ChoiceButton>
+									<ContextMenu name="КодВидаОперацииКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="КодВидаОперацииExtendedTooltip" id="197"/>
+								</InputField>
+								<LabelField name="ПредставлениеВидаОперации" id="299">
+									<DataPath>ПредставлениеВидаОперации</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="ПредставлениеВидаОперацииКонтекстноеМеню" id="300"/>
+									<ExtendedTooltip name="ПредставлениеВидаОперацииРасширеннаяПодсказка" id="301"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКодВидаОперацииНаУвеличение" id="385">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код вида операции на увеличение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код вида операции на увеличение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="398"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияКодВидаОперацииНаУвеличение" id="389">
+					<HorizontalStretch>false</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код вида операции (увеличение):</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияКодВидаОперацииНаУвеличениеКонтекстноеМеню" id="400"/>
+					<ExtendedTooltip name="ДекорацияКодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="401"/>
+				</LabelDecoration>
+				<InputField name="КодВидаОперацииНаУвеличение" id="392">
+					<DataPath>Объект.КодВидаОперации</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<Width>10</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="КодВидаОперацииНаУвеличениеКонтекстноеМеню" id="402"/>
+					<ExtendedTooltip name="КодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="403"/>
+				</InputField>
+				<LabelField name="ПредставлениеВидаОперацииНаУвеличение" id="395">
+					<DataPath>ПредставлениеВидаОперации</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ПредставлениеВидаОперацииНаУвеличениеКонтекстноеМеню" id="404"/>
+					<ExtendedTooltip name="ПредставлениеВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="405"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКодВидаОперацииНаУменьшение" id="387">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код вида операции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код вида операции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="399"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияКодВидаОперацииНаУменьшение" id="382">
+					<HorizontalStretch>false</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код вида операции (уменьшение):</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияКодВидаОперацииНаУменьшениеКонтекстноеМеню" id="383"/>
+					<ExtendedTooltip name="ДекорацияКодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="384"/>
+				</LabelDecoration>
+				<InputField name="КодВидаОперацииНаУменьшение" id="376">
+					<DataPath>Объект.КодВидаОперацииНаУменьшение</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<Width>10</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ChoiceButton>true</ChoiceButton>
+					<ContextMenu name="КодВидаОперацииНаУменьшениеКонтекстноеМеню" id="377"/>
+					<ExtendedTooltip name="КодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="378"/>
+				</InputField>
+				<LabelField name="ПредставлениеВидаОперацииНаУменьшение" id="379">
+					<DataPath>ПредставлениеВидаОперацииНаУменьшение</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ПредставлениеВидаОперацииНаУменьшениеКонтекстноеМеню" id="380"/>
+					<ExtendedTooltip name="ПредставлениеВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="381"/>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаПлатежноРасчетныеДокументы" id="156">
@@ -1383,6 +1474,37 @@
 				</v8:item>
 			</Title>
 			<Type/>
+		</Attribute>
+		<Attribute name="ВерсияКодовВидовОпераций" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версия кодов видов операций</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПредставлениеВидаОперацииНаУменьшение" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление вида операции (на уменьшение)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -2014,18 +2136,6 @@
 								<ContextMenu name="ДекорацияУИПКонтекстноеМеню" id="288"/>
 								<ExtendedTooltip name="ДекорацияУИПРасширеннаяПодсказка" id="289"/>
 							</LabelDecoration>
-							<LabelDecoration name="ДекорацияКодВидаОперации" id="290">
-								<Width>15</Width>
-								<HorizontalStretch>false</HorizontalStretch>
-								<Title formatted="false">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Код вида операции:</v8:content>
-									</v8:item>
-								</Title>
-								<ContextMenu name="ДекорацияКодВидаОперацииКонтекстноеМеню" id="291"/>
-								<ExtendedTooltip name="ДекорацияКодВидаОперацииРасширеннаяПодсказка" id="292"/>
-							</LabelDecoration>
 							<CheckBoxField name="Выставлен" id="51">
 								<DataPath>Выставлен</DataPath>
 								<Title>
@@ -2045,6 +2155,17 @@
 								<ContextMenu name="ВыставленКонтекстноеМеню" id="52"/>
 								<ExtendedTooltip name="ВыставленExtendedTooltip" id="188"/>
 							</CheckBoxField>
+							<LabelDecoration name="ДекорацияКодВидаОперации" id="387">
+								<HorizontalStretch>false</HorizontalStretch>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Код вида операции:</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияКодВидаОперацииКонтекстноеМеню" id="388"/>
+								<ExtendedTooltip name="ДекорацияКодВидаОперацииРасширеннаяПодсказка" id="389"/>
+							</LabelDecoration>
 						</ChildItems>
 					</UsualGroup>
 					<UsualGroup name="ГруппаЗначенияШапки" id="293">
@@ -2300,41 +2421,6 @@
 									</InputField>
 								</ChildItems>
 							</UsualGroup>
-							<UsualGroup name="ГруппаКодВидаОперации" id="297">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа код вида операции</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа код вида операции</v8:content>
-									</v8:item>
-								</ToolTip>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаКодВидаОперацииРасширеннаяПодсказка" id="298"/>
-								<ChildItems>
-									<InputField name="КодВидаОперации" id="59">
-										<DataPath>Объект.КодВидаОперации</DataPath>
-										<TitleLocation>None</TitleLocation>
-										<Width>10</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ChoiceButton>true</ChoiceButton>
-										<ContextMenu name="КодВидаОперацииКонтекстноеМеню" id="60"/>
-										<ExtendedTooltip name="КодВидаОперацииExtendedTooltip" id="197"/>
-									</InputField>
-									<LabelField name="ПредставлениеВидаОперации" id="299">
-										<DataPath>ПредставлениеВидаОперации</DataPath>
-										<TitleLocation>None</TitleLocation>
-										<ContextMenu name="ПредставлениеВидаОперацииКонтекстноеМеню" id="300"/>
-										<ExtendedTooltip name="ПредставлениеВидаОперацииРасширеннаяПодсказка" id="301"/>
-									</LabelField>
-								</ChildItems>
-							</UsualGroup>
 							<UsualGroup name="ГруппаВыставлен" id="53">
 								<Title>
 									<v8:item>
@@ -2377,8 +2463,135 @@
 									</CheckBoxField>
 								</ChildItems>
 							</UsualGroup>
+							<UsualGroup name="ГруппаКодВидаОперации" id="385">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа код вида операции</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа код вида операции на увеличение</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаКодВидаОперацииРасширеннаяПодсказка" id="386"/>
+								<ChildItems>
+									<InputField name="КодВидаОперации" id="390">
+										<DataPath>Объект.КодВидаОперации</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ChoiceButton>true</ChoiceButton>
+										<ContextMenu name="КодВидаОперацииКонтекстноеМеню" id="391"/>
+										<ExtendedTooltip name="КодВидаОперацииРасширеннаяПодсказка" id="392"/>
+									</InputField>
+									<LabelField name="ПредставлениеВидаОперации" id="393">
+										<DataPath>ПредставлениеВидаОперации</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<ContextMenu name="ПредставлениеВидаОперацииКонтекстноеМеню" id="394"/>
+										<ExtendedTooltip name="ПредставлениеВидаОперацииРасширеннаяПодсказка" id="395"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
 						</ChildItems>
 					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКодВидаОперацииНаУвеличение" id="297">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа код вида операции на увеличение</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа код вида операции на увеличение</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="298"/>
+				<ChildItems>
+					<LabelDecoration name="ДекорацияКодВидаОперацииНаУвеличение" id="290">
+						<HorizontalStretch>false</HorizontalStretch>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Код вида операции (увеличение):</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДекорацияКодВидаОперацииНаУвеличениеКонтекстноеМеню" id="291"/>
+						<ExtendedTooltip name="ДекорацияКодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="292"/>
+					</LabelDecoration>
+					<InputField name="КодВидаОперацииНаУвеличение" id="59">
+						<DataPath>Объект.КодВидаОперации</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<Width>10</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ChoiceButton>true</ChoiceButton>
+						<ContextMenu name="КодВидаОперацииНаУвеличениеКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="КодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="197"/>
+					</InputField>
+					<LabelField name="ПредставлениеВидаОперацииНаУвеличение" id="299">
+						<DataPath>ПредставлениеВидаОперации</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<ContextMenu name="ПредставлениеВидаОперацииНаУвеличениеКонтекстноеМеню" id="300"/>
+						<ExtendedTooltip name="ПредставлениеВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="301"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКодВидаОперацииНаУменьшение" id="374">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа код вида операции</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа код вида операции</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="375"/>
+				<ChildItems>
+					<LabelDecoration name="ДекорацияКодВидаОперацииНаУменьшение" id="382">
+						<HorizontalStretch>false</HorizontalStretch>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Код вида операции (уменьшение):</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДекорацияКодВидаОперацииНаУменьшениеКонтекстноеМеню" id="383"/>
+						<ExtendedTooltip name="ДекорацияКодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="384"/>
+					</LabelDecoration>
+					<InputField name="КодВидаОперацииНаУменьшение" id="376">
+						<DataPath>Объект.КодВидаОперацииНаУменьшение</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<Width>10</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ChoiceButton>true</ChoiceButton>
+						<ContextMenu name="КодВидаОперацииНаУменьшениеКонтекстноеМеню" id="377"/>
+						<ExtendedTooltip name="КодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="378"/>
+					</InputField>
+					<LabelField name="ПредставлениеВидаОперацииНаУменьшение" id="379">
+						<DataPath>ПредставлениеВидаОперацииНаУменьшение</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<ContextMenu name="ПредставлениеВидаОперацииНаУменьшениеКонтекстноеМеню" id="380"/>
+						<ExtendedTooltip name="ПредставлениеВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="381"/>
+					</LabelField>
 				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаПлатежноРасчетныеДокументы" id="156">
@@ -2823,6 +3036,37 @@
 					</v8:item>
 				</Title>
 				<Type/>
+			</Attribute>
+			<Attribute name="ПредставлениеВидаОперацииНаУменьшение" id="36">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Представление вида операции (на уменьшение)</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ВерсияКодовВидовОпераций" id="37">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Версия кодов видов операций</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>1</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
 			</Attribute>
 		</Attributes>
 		<Commands>

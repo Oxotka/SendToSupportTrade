@@ -2657,11 +2657,11 @@
 							<ExtendedTooltip name="ГруппаИнфорацияРасширеннаяПодсказка" id="917"/>
 							<ChildItems>
 								<LabelDecoration name="Декорация1" id="918">
-									<Title formatted="true">
+									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация
-для печати:       &lt;fontsize 6&gt; &lt;/&gt;</v8:content>
+для печати:        </v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="Декорация1КонтекстноеМеню" id="919"/>
@@ -2708,24 +2708,64 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="819"/>
 			<ChildItems>
-				<LabelField name="СостояниеЭД" id="487">
-					<DataPath>ТекстСостоянияЭД</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<TitleLocation>None</TitleLocation>
+				<UsualGroup name="ГруппаСостояние" id="433">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа состояние</v8:content>
+						</v8:item>
+					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Текущее состояние ЭД</v8:content>
+							<v8:content>Группа состояние</v8:content>
 						</v8:item>
 					</ToolTip>
-					<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="488"/>
-					<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="777"/>
-				</LabelField>
-				<LabelDecoration name="ДекорацияИтоги" id="870">
-					<HorizontalStretch>true</HorizontalStretch>
-					<ContextMenu name="ДекорацияИтогиКонтекстноеМеню" id="871"/>
-					<ExtendedTooltip name="ДекорацияИтогиРасширеннаяПодсказка" id="872"/>
-				</LabelDecoration>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСостояниеExtendedTooltip" id="773"/>
+					<ChildItems>
+						<LabelField name="ТекстЗаявкаНаВыпускКиЗ" id="1104">
+							<DataPath>ТекстЗаявкаНаВыпускКиЗ</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="ТекстЗаявкаНаВыпускКиЗКонтекстноеМеню" id="1105"/>
+							<ExtendedTooltip name="ТекстЗаявкаНаВыпускКиЗРасширеннаяПодсказка" id="1106"/>
+						</LabelField>
+						<UsualGroup name="ГруппаЭД" id="1107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ЭД</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ЭД</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЭДРасширеннаяПодсказка" id="1109"/>
+							<ChildItems>
+								<LabelField name="СостояниеЭД" id="487">
+									<DataPath>ТекстСостоянияЭД</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Текущее состояние ЭД</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="488"/>
+									<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="777"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="ГруппаИтого" id="820">
 					<Title>
 						<v8:item>
@@ -2889,38 +2929,6 @@
 							<ExtendedTooltip name="ВалютаДокументаРасширеннаяПодсказка" id="864"/>
 						</LabelField>
 					</ChildItems>
-				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаСостояния" id="875">
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа состояния</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Horizontal</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаСостоянияРасширеннаяПодсказка" id="876"/>
-			<ChildItems>
-				<UsualGroup name="ГруппаСостояние" id="433">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа состояние</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа состояние</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>Vertical</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаСостояниеExtendedTooltip" id="773"/>
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
@@ -3846,6 +3854,20 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="ТекстЗаявкаНаВыпускКиЗ" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст заявка на выпуск КиЗ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ВестиУчетМаркировкиПродукцииВГИСМ</Item>
+			</FunctionalOptions>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -7033,24 +7055,64 @@
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="819"/>
 				<ChildItems>
-					<LabelField name="СостояниеЭД" id="487">
-						<DataPath>ТекстСостоянияЭД</DataPath>
-						<ReadOnly>true</ReadOnly>
-						<TitleLocation>None</TitleLocation>
+					<UsualGroup name="ГруппаСостояние" id="433">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа состояние</v8:content>
+							</v8:item>
+						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Текущее состояние ЭД</v8:content>
+								<v8:content>Группа состояние</v8:content>
 							</v8:item>
 						</ToolTip>
-						<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="488"/>
-						<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="777"/>
-					</LabelField>
-					<LabelDecoration name="ДекорацияИтоги" id="870">
-						<HorizontalStretch>true</HorizontalStretch>
-						<ContextMenu name="ДекорацияИтогиКонтекстноеМеню" id="871"/>
-						<ExtendedTooltip name="ДекорацияИтогиРасширеннаяПодсказка" id="872"/>
-					</LabelDecoration>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаСостояниеExtendedTooltip" id="773"/>
+						<ChildItems>
+							<LabelField name="ТекстЗаявкаНаВыпускКиЗ" id="1104">
+								<DataPath>ТекстЗаявкаНаВыпускКиЗ</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<ContextMenu name="ТекстЗаявкаНаВыпускКиЗКонтекстноеМеню" id="1105"/>
+								<ExtendedTooltip name="ТекстЗаявкаНаВыпускКиЗРасширеннаяПодсказка" id="1106"/>
+							</LabelField>
+							<UsualGroup name="ГруппаЭД" id="1102">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа ЭД</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа ЭД</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаЭДРасширеннаяПодсказка" id="1103"/>
+								<ChildItems>
+									<LabelField name="СостояниеЭД" id="487">
+										<DataPath>ТекстСостоянияЭД</DataPath>
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Текущее состояние ЭД</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="488"/>
+										<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="777"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
 					<UsualGroup name="ГруппаИтого" id="820">
 						<Title>
 							<v8:item>
@@ -7214,38 +7276,6 @@
 								<ExtendedTooltip name="ВалютаДокументаРасширеннаяПодсказка" id="864"/>
 							</LabelField>
 						</ChildItems>
-					</UsualGroup>
-				</ChildItems>
-			</UsualGroup>
-			<UsualGroup name="ГруппаСостояния" id="875">
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Группа состояния</v8:content>
-					</v8:item>
-				</ToolTip>
-				<Group>Horizontal</Group>
-				<Representation>None</Representation>
-				<ShowTitle>false</ShowTitle>
-				<ExtendedTooltip name="ГруппаСостоянияРасширеннаяПодсказка" id="876"/>
-				<ChildItems>
-					<UsualGroup name="ГруппаСостояние" id="433">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа состояние</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Группа состояние</v8:content>
-							</v8:item>
-						</ToolTip>
-						<Group>Vertical</Group>
-						<Representation>None</Representation>
-						<ShowTitle>false</ShowTitle>
-						<ExtendedTooltip name="ГруппаСостояниеExtendedTooltip" id="773"/>
 					</UsualGroup>
 				</ChildItems>
 			</UsualGroup>
@@ -8171,6 +8201,20 @@
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
+			</Attribute>
+			<Attribute name="ТекстЗаявкаНаВыпускКиЗ" id="59">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст заявка на выпуск КиЗ</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ВестиУчетМаркировкиПродукцииВГИСМ</Item>
+				</FunctionalOptions>
 			</Attribute>
 		</Attributes>
 		<Commands>

@@ -590,10 +590,10 @@
 															<ExtendedTooltip name="ВидНоменклатурыПереключательОбязательныеПоляРасширеннаяПодсказка" id="1197"/>
 														</RadioButtonField>
 														<LabelDecoration name="ГиперссылкаПерейтиНоменклатураСАналогичнымиСвойствами" id="1152">
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link Номенклатура с аналогичными свойствами&gt;Номенклатура с аналогичными свойствами&lt;/&gt;</v8:content>
+																	<v8:content>Номенклатура с аналогичными свойствами</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиНоменклатураСАналогичнымиСвойствамиКонтекстноеМеню" id="1153"/>
@@ -846,10 +846,10 @@
 													<ExtendedTooltip name="ШтрихкодРасширеннаяПодсказка" id="1120"/>
 												</InputField>
 												<LabelDecoration name="ГиперссылкаПерейтиШтрихкодыНоменклатуры" id="1174">
-													<Title formatted="true">
+													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>&lt;link 1&gt;Штрихкоды&lt;/&gt;&lt;link 1&gt; (&lt;/&gt;&lt;link 1&gt;1&lt;/&gt;&lt;link 1&gt;)&lt;/&gt;</v8:content>
+															<v8:content>Штрихкоды (1)</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ГиперссылкаПерейтиШтрихкодыНоменклатурыКонтекстноеМеню" id="1175"/>
@@ -1185,10 +1185,10 @@
 																	<ExtendedTooltip name="ФайлОписанияДляСайтаExtendedTooltip" id="343"/>
 																</InputField>
 																<LabelDecoration name="ГиперссылкаПерейтиФайлы" id="1232">
-																	<Title formatted="true">
+																	<Title formatted="false">
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>&lt;link 1&gt;Файлы&lt;/&gt;&lt;link 1&gt; (0)&lt;/&gt;</v8:content>
+																			<v8:content>Файлы (0)</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ГиперссылкаПерейтиФайлыКонтекстноеМеню" id="1233"/>
@@ -1608,10 +1608,10 @@
 														</InputField>
 														<LabelDecoration name="ГиперссылкаПерейтиСовместныеПродажи" id="930">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;Совместные продажи&lt;/&gt;</v8:content>
+																	<v8:content>Совместные продажи</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиСовместныеПродажиКонтекстноеМеню" id="931"/>
@@ -1619,10 +1619,10 @@
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиСегменты" id="901">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 2&gt;С&lt;/&gt;&lt;bgcolorstyle -1&gt;&lt;link 2&gt;егменты&lt;/&gt;&lt;/&gt;&lt;link 2&gt; (&lt;/&gt;&lt;link 2&gt;Метизы)&lt;/&gt;</v8:content>
+																	<v8:content>Сегменты (Метизы)</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиСегментыКонтекстноеМеню" id="902"/>
@@ -1750,10 +1750,10 @@
 														</InputField>
 														<LabelDecoration name="ГиперссылкаПерейтиВариантыКомплектации" id="1238">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link Варианты комплектации&gt;Варианты&lt;/&gt;&lt;link Варианты комплектации&gt; комплектации&lt;/&gt;</v8:content>
+																	<v8:content>Варианты комплектации</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиВариантыКомплектацииКонтекстноеМеню" id="1239"/>
@@ -1761,10 +1761,10 @@
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиПараметрыОбеспеченияПотребностей" id="920">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;Пар&lt;/&gt;&lt;link 1&gt;аметры обеспечения потребностей&lt;/&gt;</v8:content>
+																	<v8:content>Параметры обеспечения потребностей</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиПараметрыОбеспеченияПотребностейКонтекстноеМеню" id="921"/>
@@ -1772,10 +1772,10 @@
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиНастройкаПередачиМатериаловВПроизводство" id="1338">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;Настройка передачи материалов в производство&lt;/&gt;</v8:content>
+																	<v8:content>Настройка передачи материалов в производство</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиНастройкаПередачиМатериаловВПроизводствоКонтекстноеМеню" id="1339"/>
@@ -1783,10 +1783,10 @@
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиПроизводство" id="1125">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;Производство&lt;/&gt;</v8:content>
+																	<v8:content>Производство</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиПроизводствоКонтекстноеМеню" id="1126"/>
@@ -1902,10 +1902,10 @@
 														</InputField>
 														<LabelDecoration name="ГиперссылкаПерейтиПрайсЛистКомпании" id="1099">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;Прайс&lt;/&gt;&lt;link 1&gt;-лист компании&lt;/&gt;</v8:content>
+																	<v8:content>Прайс-лист компании</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиПрайсЛистКомпанииКонтекстноеМеню" id="1100"/>
@@ -1913,32 +1913,30 @@
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиПрайсЛистыПоставщиков" id="1102">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 23&gt;Прайс-лист&lt;/&gt;&lt;link 23&gt;ы поставщиков&lt;/&gt;</v8:content>
+																	<v8:content>Прайс-листы поставщиков</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиПрайсЛистыПоставщиковКонтекстноеМеню" id="1103"/>
 															<ExtendedTooltip name="ГиперссылкаПерейтиПрайсЛистыПоставщиковРасширеннаяПодсказка" id="1104"/>
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпании" id="1380">
-															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;История изменения цен компании&lt;/&gt;&lt;link 1&gt;и&lt;/&gt;</v8:content>
+																	<v8:content>История изменения цен компании</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпанииКонтекстноеМеню" id="1381"/>
 															<ExtendedTooltip name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпанииРасширеннаяПодсказка" id="1382"/>
 														</LabelDecoration>
 														<LabelDecoration name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиков" id="1383">
-															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;История изменения цен поставщиков&lt;/&gt;</v8:content>
+																	<v8:content>История изменения цен поставщиков</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиковКонтекстноеМеню" id="1384"/>
@@ -2473,10 +2471,10 @@
 																<LabelDecoration name="ГиперссылкаПерейтиСоставНабора" id="885">
 																	<Height>1</Height>
 																	<HorizontalStretch>true</HorizontalStretch>
-																	<Title formatted="true">
+																	<Title formatted="false">
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>&lt;link 2&gt;Состав&lt;/&gt;&lt;link 2&gt; набора (1&lt;/&gt;&lt;link 2&gt;)&lt;/&gt;</v8:content>
+																			<v8:content>Состав набора (1)</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ГиперссылкаПерейтиСоставНабораКонтекстноеМеню" id="886"/>
@@ -2520,10 +2518,10 @@
 																<LabelDecoration name="ГиперссылкаПерейтиХарактеристикиНоменклатуры" id="870">
 																	<Height>1</Height>
 																	<HorizontalStretch>true</HorizontalStretch>
-																	<Title formatted="true">
+																	<Title formatted="false">
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>&lt;link 2&gt;Список&lt;/&gt;&lt;link 2&gt; (2)&lt;/&gt;</v8:content>
+																			<v8:content>Список (2)</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ГиперссылкаПерейтиХарактеристикиНоменклатурыКонтекстноеМеню" id="871"/>
@@ -2616,10 +2614,10 @@
 																</InputField>
 																<LabelDecoration name="ГиперссылкаПерейтиТоварыДругогоКачества" id="904">
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<Title formatted="true">
+																	<Title formatted="false">
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>&lt;link Товары другого качества&gt;Товары другого качества&lt;/&gt;</v8:content>
+																			<v8:content>Товары другого качества</v8:content>
 																		</v8:item>
 																	</Title>
 																	<HorizontalAlign>Center</HorizontalAlign>
@@ -2824,10 +2822,10 @@
 																				</RadioButtonField>
 																				<LabelDecoration name="ГиперссылкаПерейтиУпаковкиНоменклатуры" id="1192">
 																					<Height>1</Height>
-																					<Title formatted="true">
+																					<Title formatted="false">
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>&lt;link 2&gt;Список&lt;/&gt;&lt;link 2&gt; &lt;/&gt;&lt;link 2&gt;(0)&lt;/&gt;</v8:content>
+																							<v8:content>Список (0)</v8:content>
 																						</v8:item>
 																					</Title>
 																					<HorizontalAlign>Center</HorizontalAlign>
@@ -2892,10 +2890,10 @@
 																				</InputField>
 																				<LabelDecoration name="ГиперссылкаПерейтиУпаковкиНабора" id="862">
 																					<Height>1</Height>
-																					<Title formatted="true">
+																					<Title formatted="false">
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>&lt;link 2&gt;Список&lt;/&gt;&lt;link 2&gt; &lt;/&gt;&lt;link 2&gt;(0)&lt;/&gt;</v8:content>
+																							<v8:content>Список (0)</v8:content>
 																						</v8:item>
 																					</Title>
 																					<HorizontalAlign>Center</HorizontalAlign>
@@ -2906,10 +2904,10 @@
 																		</UsualGroup>
 																		<LabelDecoration name="ГиперссылкаПерейтиПрогнозыРасходаУпаковок" id="1330">
 																			<Height>1</Height>
-																			<Title formatted="true">
+																			<Title formatted="false">
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>&lt;link Прогнозы расхода упаковок&gt;Прогнозы расхода упаковок&lt;/&gt;</v8:content>
+																					<v8:content>Прогнозы расхода упаковок</v8:content>
 																				</v8:item>
 																			</Title>
 																			<HorizontalAlign>Center</HorizontalAlign>
@@ -3684,10 +3682,10 @@
 														</InputField>
 														<LabelDecoration name="ГиперссылкаПерейтиРазмещениеНоменклатуры" id="1333">
 															<Height>1</Height>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link Размещение номенклатуры по ячейкам (справочно)&gt;Размещение номенклатуры по ячейкам (справочно)&lt;/&gt;</v8:content>
+																	<v8:content>Размещение номенклатуры по ячейкам (справочно)</v8:content>
 																</v8:item>
 															</Title>
 															<HorizontalAlign>Center</HorizontalAlign>
@@ -3944,7 +3942,7 @@
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Подакцизный товар</v8:content>
+																			<v8:content>подакцизный товар</v8:content>
 																		</v8:item>
 																	</Title>
 																	<TitleLocation>Right</TitleLocation>
@@ -3954,6 +3952,13 @@
 																</CheckBoxField>
 															</ChildItems>
 														</UsualGroup>
+														<CheckBoxField name="СырьевойТовар" id="1411">
+															<DataPath>Объект.СырьевойТовар</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СырьевойТоварКонтекстноеМеню" id="1412"/>
+															<ExtendedTooltip name="СырьевойТоварРасширеннаяПодсказка" id="1413"/>
+														</CheckBoxField>
 														<CheckBoxField name="ВестиУчетПоГТД" id="39">
 															<DataPath>Объект.ВестиУчетПоГТД</DataPath>
 															<Title>
@@ -4001,10 +4006,10 @@
 																<LabelDecoration name="ГиперссылкаПерейтиСертификатыНоменклатуры" id="875">
 																	<Height>1</Height>
 																	<HorizontalStretch>false</HorizontalStretch>
-																	<Title formatted="true">
+																	<Title formatted="false">
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>&lt;link 1&gt;Список&lt;/&gt;&lt;link 1&gt; (0)&lt;/&gt; &lt;img 0:5258103c-dc27-4bbb-bbe7-aae6643d2147/&gt;</v8:content>
+																			<v8:content>Список (0)  </v8:content>
 																		</v8:item>
 																	</Title>
 																	<ContextMenu name="ГиперссылкаПерейтиСертификатыНоменклатурыКонтекстноеМеню" id="876"/>
@@ -4015,10 +4020,10 @@
 														<LabelDecoration name="ГиперссылкаПерейтиДрагоценныеМатериалы" id="896">
 															<Height>1</Height>
 															<HorizontalStretch>false</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 1&gt;Содержание драгоценных материалов&lt;/&gt;&lt;link 1&gt; &lt;/&gt;&lt;link 1&gt;(1&lt;/&gt;&lt;link 1&gt;)&lt;/&gt;</v8:content>
+																	<v8:content>Содержание драгоценных материалов (1)</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиДрагоценныеМатериалыКонтекстноеМеню" id="897"/>
@@ -4048,10 +4053,10 @@
 														</InputField>
 														<LabelDecoration name="ГиперссылкаПерейтиРаспределениеПродажПоНаправлениямДеятельности" id="925">
 															<HorizontalStretch>true</HorizontalStretch>
-															<Title formatted="true">
+															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>&lt;link 2&gt;Распределение&lt;/&gt;&lt;link 2&gt; продаж по направлениям деятельности&lt;/&gt;</v8:content>
+																	<v8:content>Распределение продаж по направлениям деятельности</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ГиперссылкаПерейтиРаспределениеПродажПоНаправлениямДеятельностиКонтекстноеМеню" id="926"/>
@@ -4304,6 +4309,145 @@
 																</LabelDecoration>
 															</ChildItems>
 														</UsualGroup>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаЗаголовокКиЗ" id="1414">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа заголовок КиЗ</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа заголовок основные параметры учета открыть</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Height>1</Height>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаЗаголовокКиЗРасширеннаяПодсказка" id="1426"/>
+													<ChildItems>
+														<PictureDecoration name="ДекорацияОткрытьКиЗ" id="1422">
+															<Visible>false</Visible>
+															<Width>2</Width>
+															<MaxWidth>1</MaxWidth>
+															<Height>1</Height>
+															<MaxHeight>1</MaxHeight>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация открыть КиЗ</v8:content>
+																</v8:item>
+															</Title>
+															<Hyperlink>true</Hyperlink>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.СтрелкаВправоЗеленая</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<ContextMenu name="ДекорацияОткрытьКиЗКонтекстноеМеню" id="1427"/>
+															<ExtendedTooltip name="ДекорацияОткрытьКиЗРасширеннаяПодсказка" id="1428"/>
+														</PictureDecoration>
+														<PictureDecoration name="ДекорацияЗакрытьКиЗ" id="1419">
+															<Width>2</Width>
+															<MaxWidth>1</MaxWidth>
+															<Height>1</Height>
+															<MaxHeight>1</MaxHeight>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Декорация закрыть КиЗ</v8:content>
+																</v8:item>
+															</Title>
+															<Hyperlink>true</Hyperlink>
+															<PictureSize>AutoSize</PictureSize>
+															<Picture>
+																<xr:Ref>CommonPicture.СтрелкаВнизЗеленая</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<ContextMenu name="ДекорацияЗакрытьКиЗКонтекстноеМеню" id="1429"/>
+															<ExtendedTooltip name="ДекорацияЗакрытьКиЗРасширеннаяПодсказка" id="1430"/>
+														</PictureDecoration>
+														<LabelDecoration name="ДекорацияЗаголовокКиЗ" id="1416">
+															<TextColor>style:ЦветТекстаЗаголовокОтчетаВТакси</TextColor>
+															<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сведения о контрольном (идентификационном) знаке</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияЗаголовокКиЗКонтекстноеМеню" id="1431"/>
+															<ExtendedTooltip name="ДекорацияЗаголовокКиЗРасширеннаяПодсказка" id="1432"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="СворачиваемаяГруппаКиЗ" id="1425">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сведения о контрольном (идентифицационном) знаке</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сворачиваемая группа алкоголь</v8:content>
+														</v8:item>
+													</ToolTip>
+													<HorizontalStretch>true</HorizontalStretch>
+													<Group>Vertical</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="СворачиваемаяГруппаКиЗРасширеннаяПодсказка" id="1388"/>
+													<ChildItems>
+														<InputField name="КиЗГИСМВид" id="1389">
+															<DataPath>Объект.КиЗГИСМВид</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Вид</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="КиЗГИСМВидКонтекстноеМеню" id="1390"/>
+															<ExtendedTooltip name="КиЗГИСМВидРасширеннаяПодсказка" id="1391"/>
+														</InputField>
+														<InputField name="КиЗГИСМСпособВыпускаВОборот" id="1392">
+															<DataPath>Объект.КиЗГИСМСпособВыпускаВОборот</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Способ выпуска в оборот</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="КиЗГИСМСпособВыпускаВОборотКонтекстноеМеню" id="1393"/>
+															<ExtendedTooltip name="КиЗГИСМСпособВыпускаВОборотРасширеннаяПодсказка" id="1394"/>
+														</InputField>
+														<InputField name="КиЗГИСМРазмер" id="1398">
+															<DataPath>Объект.КиЗГИСМРазмер</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Размер</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="КиЗГИСМРазмерКонтекстноеМеню" id="1399"/>
+															<ExtendedTooltip name="КиЗГИСМРазмерРасширеннаяПодсказка" id="1400"/>
+														</InputField>
+														<InputField name="КиЗГИСМGTIN" id="1395">
+															<DataPath>Объект.КиЗГИСМGTIN</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>GTIN, записываемый эмитентом</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="КиЗГИСМGTINКонтекстноеМеню" id="1396"/>
+															<ExtendedTooltip name="КиЗГИСМGTINРасширеннаяПодсказка" id="1397"/>
+														</InputField>
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="ГруппаЗаголовокКлассификаторы" id="605">
@@ -5577,97 +5721,6 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТаблицаОбязательныхРеквизитов" id="45">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Таблица обязательных реквизитов</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
-			</Type>
-			<Columns>
-				<Column name="Наименование" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ЭтоДопРеквизит" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Это доп реквизит</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-				</Column>
-				<Column name="Представление" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Представление</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="СвойствоДопРеквизита" id="4">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Свойство доп реквизита</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-					</Type>
-				</Column>
-				<Column name="ОбязателенДляЗаполнения" id="5">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обязателен для заполнения</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-				</Column>
-				<Column name="ПутьКДанным" id="6">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Путь к данным</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-			</Columns>
-		</Attribute>
 		<Attribute name="ИспользоватьДополнительныеРеквизитыИСведения" id="46">
 			<Title>
 				<v8:item>
@@ -5678,124 +5731,6 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
-		</Attribute>
-		<Attribute name="ТаблицаУникальныхРеквизитов" id="47">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Таблица уникальных реквизитов</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
-			</Type>
-			<Columns>
-				<Column name="Наименование" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ЭтоДопРеквизит" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Это доп реквизит</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-				</Column>
-				<Column name="Представление" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Представление</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="ПутьКДанным" id="4">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Путь к данным</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Column>
-				<Column name="СвойствоДопРеквизита" id="6">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Свойство доп реквизита</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-					</Type>
-				</Column>
-				<Column name="Значение" id="5">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Значение</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-				</Column>
-				<Column name="ОтображатьПриСоздании" id="7">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отображать при создании</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-				</Column>
-			</Columns>
 		</Attribute>
 		<Attribute name="ТаблицаНайдено" id="49">
 			<Title>
@@ -6172,6 +6107,146 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="ТаблицаНастроекРеквизитов" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица настроек реквизитов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Наименование" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЭтоДопРеквизит" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это доп реквизит</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Представление" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПутьКДанным" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Путь к данным</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СвойствоДопРеквизита" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойство доп реквизита</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Значение" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОбязателенДляЗаполнения" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обязателен для заполнения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Уникален" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уникален</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОтображатьПриСоздании" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отображать при создании</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -6626,7 +6701,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>История изменения цен компании</v8:content>
+					<v8:content>Команда перейти история изменения цен компании</v8:content>
 				</v8:item>
 			</ToolTip>
 		</Command>
@@ -6640,7 +6715,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>История изменения цен поставщиков</v8:content>
+					<v8:content>Команда перейти история изменения цен поставщиков</v8:content>
 				</v8:item>
 			</ToolTip>
 		</Command>
@@ -7011,15 +7086,15 @@
 											<CommandName>Form.Command.КомандаПерейтиПрайсЛистыПоставщиков</CommandName>
 											<ExtendedTooltip name="КомандаПерейтиПрайсЛистыПоставщиковРасширеннаяПодсказка" id="1297"/>
 										</Button>
-										<Button name="КомандаПерейтиИсторияИзмененияЦенКомпании" id="1376">
+										<Button name="КомандаПерейтиИсторияИзмененияЦенКомпании" id="1401">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаПерейтиИсторияИзмененияЦенКомпании</CommandName>
-											<ExtendedTooltip name="КомандаПерейтиИсторияИзмененияЦенКомпанииРасширеннаяПодсказка" id="1377"/>
+											<ExtendedTooltip name="КомандаПерейтиИсторияИзмененияЦенКомпанииРасширеннаяПодсказка" id="1402"/>
 										</Button>
-										<Button name="КомандаПерейтиИсторияИзмененияЦенПоставщиков" id="1378">
+										<Button name="КомандаПерейтиИсторияИзмененияЦенПоставщиков" id="1403">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.КомандаПерейтиИсторияИзмененияЦенПоставщиков</CommandName>
-											<ExtendedTooltip name="КомандаПерейтиИсторияИзмененияЦенПоставщиковРасширеннаяПодсказка" id="1379"/>
+											<ExtendedTooltip name="КомандаПерейтиИсторияИзмененияЦенПоставщиковРасширеннаяПодсказка" id="1404"/>
 										</Button>
 									</ChildItems>
 								</ButtonGroup>
@@ -8575,27 +8650,25 @@
 																<ContextMenu name="ГиперссылкаПерейтиПрайсЛистыПоставщиковКонтекстноеМеню" id="1103"/>
 																<ExtendedTooltip name="ГиперссылкаПерейтиПрайсЛистыПоставщиковРасширеннаяПодсказка" id="1104"/>
 															</LabelDecoration>
-															<LabelDecoration name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпании" id="1380">
-																<HorizontalStretch>true</HorizontalStretch>
+															<LabelDecoration name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпании" id="1405">
 																<Title formatted="true">
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>&lt;link 1&gt;История изменения цен компании&lt;/&gt;&lt;link 1&gt;и&lt;/&gt;</v8:content>
+																		<v8:content>&lt;link 1&gt;История изменения цен компании&lt;/&gt;</v8:content>
 																	</v8:item>
 																</Title>
-																<ContextMenu name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпанииКонтекстноеМеню" id="1381"/>
-																<ExtendedTooltip name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпанииРасширеннаяПодсказка" id="1382"/>
+																<ContextMenu name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпанииКонтекстноеМеню" id="1406"/>
+																<ExtendedTooltip name="ГиперссылкаПерейтиИсторияИзмененияЦенКомпанииРасширеннаяПодсказка" id="1407"/>
 															</LabelDecoration>
-															<LabelDecoration name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиков" id="1383">
-																<HorizontalStretch>true</HorizontalStretch>
+															<LabelDecoration name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиков" id="1408">
 																<Title formatted="true">
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>&lt;link 1&gt;История изменения цен поставщиков&lt;/&gt;</v8:content>
+																		<v8:content>&lt;link 23&gt;История изменения цен поставщиков&lt;/&gt;</v8:content>
 																	</v8:item>
 																</Title>
-																<ContextMenu name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиковКонтекстноеМеню" id="1384"/>
-																<ExtendedTooltip name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиковРасширеннаяПодсказка" id="1385"/>
+																<ContextMenu name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиковКонтекстноеМеню" id="1409"/>
+																<ExtendedTooltip name="ГиперссылкаПерейтиИсторияИзмененияЦенПоставщиковРасширеннаяПодсказка" id="1410"/>
 															</LabelDecoration>
 														</ChildItems>
 													</UsualGroup>
@@ -10597,7 +10670,7 @@
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Подакцизный товар</v8:content>
+																				<v8:content>подакцизный товар</v8:content>
 																			</v8:item>
 																		</Title>
 																		<TitleLocation>Right</TitleLocation>
@@ -10607,6 +10680,13 @@
 																	</CheckBoxField>
 																</ChildItems>
 															</UsualGroup>
+															<CheckBoxField name="СырьевойТовар" id="1411">
+																<DataPath>Объект.СырьевойТовар</DataPath>
+																<TitleLocation>Right</TitleLocation>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="СырьевойТоварКонтекстноеМеню" id="1412"/>
+																<ExtendedTooltip name="СырьевойТоварРасширеннаяПодсказка" id="1413"/>
+															</CheckBoxField>
 															<CheckBoxField name="ВестиУчетПоГТД" id="39">
 																<DataPath>Объект.ВестиУчетПоГТД</DataPath>
 																<Title>
@@ -10957,6 +11037,145 @@
 																	</LabelDecoration>
 																</ChildItems>
 															</UsualGroup>
+														</ChildItems>
+													</UsualGroup>
+													<UsualGroup name="ГруппаЗаголовокКиЗ" id="1376">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа заголовок КиЗ</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа заголовок основные параметры учета открыть</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Height>1</Height>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ГруппаЗаголовокКиЗРасширеннаяПодсказка" id="1377"/>
+														<ChildItems>
+															<PictureDecoration name="ДекорацияОткрытьКиЗ" id="1378">
+																<Visible>false</Visible>
+																<Width>2</Width>
+																<MaxWidth>1</MaxWidth>
+																<Height>1</Height>
+																<MaxHeight>1</MaxHeight>
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Декорация открыть КиЗ</v8:content>
+																	</v8:item>
+																</Title>
+																<Hyperlink>true</Hyperlink>
+																<PictureSize>AutoSize</PictureSize>
+																<Picture>
+																	<xr:Ref>CommonPicture.СтрелкаВправоЗеленая</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<ContextMenu name="ДекорацияОткрытьКиЗКонтекстноеМеню" id="1379"/>
+																<ExtendedTooltip name="ДекорацияОткрытьКиЗРасширеннаяПодсказка" id="1380"/>
+															</PictureDecoration>
+															<PictureDecoration name="ДекорацияЗакрытьКиЗ" id="1381">
+																<Width>2</Width>
+																<MaxWidth>1</MaxWidth>
+																<Height>1</Height>
+																<MaxHeight>1</MaxHeight>
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Декорация закрыть КиЗ</v8:content>
+																	</v8:item>
+																</Title>
+																<Hyperlink>true</Hyperlink>
+																<PictureSize>AutoSize</PictureSize>
+																<Picture>
+																	<xr:Ref>CommonPicture.СтрелкаВнизЗеленая</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<ContextMenu name="ДекорацияЗакрытьКиЗКонтекстноеМеню" id="1382"/>
+																<ExtendedTooltip name="ДекорацияЗакрытьКиЗРасширеннаяПодсказка" id="1383"/>
+															</PictureDecoration>
+															<LabelDecoration name="ДекорацияЗаголовокКиЗ" id="1384">
+																<TextColor>style:ЦветТекстаЗаголовокОтчетаВТакси</TextColor>
+																<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Сведения о контрольном (идентификационном) знаке</v8:content>
+																	</v8:item>
+																</Title>
+																<ContextMenu name="ДекорацияЗаголовокКиЗКонтекстноеМеню" id="1385"/>
+																<ExtendedTooltip name="ДекорацияЗаголовокКиЗРасширеннаяПодсказка" id="1386"/>
+															</LabelDecoration>
+														</ChildItems>
+													</UsualGroup>
+													<UsualGroup name="СворачиваемаяГруппаКиЗ" id="1387">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Сведения о контрольном (идентифицационном) знаке</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Сворачиваемая группа алкоголь</v8:content>
+															</v8:item>
+														</ToolTip>
+														<HorizontalStretch>true</HorizontalStretch>
+														<Group>Vertical</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="СворачиваемаяГруппаКиЗРасширеннаяПодсказка" id="1388"/>
+														<ChildItems>
+															<InputField name="КиЗГИСМВид" id="1389">
+																<DataPath>Объект.КиЗГИСМВид</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Вид</v8:content>
+																	</v8:item>
+																</Title>
+																<ContextMenu name="КиЗГИСМВидКонтекстноеМеню" id="1390"/>
+																<ExtendedTooltip name="КиЗГИСМВидРасширеннаяПодсказка" id="1391"/>
+															</InputField>
+															<InputField name="КиЗГИСМСпособВыпускаВОборот" id="1392">
+																<DataPath>Объект.КиЗГИСМСпособВыпускаВОборот</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Способ выпуска в оборот</v8:content>
+																	</v8:item>
+																</Title>
+																<ContextMenu name="КиЗГИСМСпособВыпускаВОборотКонтекстноеМеню" id="1393"/>
+																<ExtendedTooltip name="КиЗГИСМСпособВыпускаВОборотРасширеннаяПодсказка" id="1394"/>
+															</InputField>
+															<InputField name="КиЗГИСМРазмер" id="1398">
+																<DataPath>Объект.КиЗГИСМРазмер</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Размер</v8:content>
+																	</v8:item>
+																</Title>
+																<ContextMenu name="КиЗГИСМРазмерКонтекстноеМеню" id="1399"/>
+																<ExtendedTooltip name="КиЗГИСМРазмерРасширеннаяПодсказка" id="1400"/>
+															</InputField>
+															<InputField name="КиЗГИСМGTIN" id="1395">
+																<DataPath>Объект.КиЗГИСМGTIN</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>GTIN, записываемый эмитентом</v8:content>
+																	</v8:item>
+																</Title>
+																<ContextMenu name="КиЗГИСМGTINКонтекстноеМеню" id="1396"/>
+																<ExtendedTooltip name="КиЗГИСМGTINРасширеннаяПодсказка" id="1397"/>
+															</InputField>
 														</ChildItems>
 													</UsualGroup>
 													<UsualGroup name="ГруппаЗаголовокКлассификаторы" id="605">
@@ -12230,97 +12449,6 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТаблицаОбязательныхРеквизитов" id="45">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Таблица обязательных реквизитов</v8:content>
-					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>v8:ValueTable</v8:Type>
-				</Type>
-				<Columns>
-					<Column name="Наименование" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Наименование</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>0</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="ЭтоДопРеквизит" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Это доп реквизит</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-					</Column>
-					<Column name="Представление" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Представление</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>0</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-					<Column name="СвойствоДопРеквизита" id="4">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Свойство доп реквизита</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-						</Type>
-					</Column>
-					<Column name="ОбязателенДляЗаполнения" id="5">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Обязателен для заполнения</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-					</Column>
-					<Column name="ПутьКДанным" id="6">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Путь к данным</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:string</v8:Type>
-							<v8:StringQualifiers>
-								<v8:Length>0</v8:Length>
-								<v8:AllowedLength>Variable</v8:AllowedLength>
-							</v8:StringQualifiers>
-						</Type>
-					</Column>
-				</Columns>
-			</Attribute>
 			<Attribute name="ИспользоватьДополнительныеРеквизитыИСведения" id="46">
 				<Title>
 					<v8:item>
@@ -12332,11 +12460,11 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТаблицаУникальныхРеквизитов" id="47">
+			<Attribute name="ТаблицаНастроекРеквизитов" id="47">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Таблица уникальных реквизитов</v8:content>
+						<v8:content>Таблица настроек реквизитов</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -12437,7 +12565,29 @@
 							</v8:DateQualifiers>
 						</Type>
 					</Column>
-					<Column name="ОтображатьПриСоздании" id="7">
+					<Column name="ОбязателенДляЗаполнения" id="8">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обязателен для заполнения</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="Уникален" id="7">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Уникален</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ОтображатьПриСоздании" id="9">
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -13279,7 +13429,7 @@
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>История изменения цен компании</v8:content>
+						<v8:content>Команда перейти история изменения цен компании</v8:content>
 					</v8:item>
 				</ToolTip>
 			</Command>
@@ -13293,7 +13443,7 @@
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>История изменения цен поставщиков</v8:content>
+						<v8:content>Команда перейти история изменения цен поставщиков</v8:content>
 					</v8:item>
 				</ToolTip>
 			</Command>

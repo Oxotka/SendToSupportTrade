@@ -45,10 +45,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.0</Version>
+			<Version>1.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_6</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -144,10 +142,14 @@
 			<FunctionalOption>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</FunctionalOption>
 			<FunctionalOption>ИспользоватьОбменЭД</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
+			<FunctionalOption>ВестиУчетМаркировкиПродукцииВГИСМ</FunctionalOption>
 			<DefinedType>Артикул</DefinedType>
+			<DefinedType>GTIN</DefinedType>
+			<DefinedType>GLN</DefinedType>
 			<CommonCommand>ЗадачиПоПредмету</CommonCommand>
 			<CommonCommand>ИсторияИзменений</CommonCommand>
 			<CommonCommand>МоиЗаметкиПоПредмету</CommonCommand>
+			<CommonCommand>ПротоколОбменаГИСМ</CommonCommand>
 			<Constant>ИспользоватьПроверкуКонтрагентов</Constant>
 			<Constant>ИспользоватьЗапретОтгрузки</Constant>
 			<Constant>ИспользоватьСертификатыНоменклатуры</Constant>
@@ -186,6 +188,7 @@
 			<Constant>ИспользоватьРеализациюПоНесколькимЗаказам</Constant>
 			<Constant>ИспользоватьОбменЭД</Constant>
 			<Constant>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
+			<Constant>ВестиУчетМаркировкиПродукцииВГИСМ</Constant>
 			<Catalog>БанковскиеСчетаКонтрагентов</Catalog>
 			<Catalog>БанковскиеСчетаОрганизаций</Catalog>
 			<Catalog>БизнесРегионы</Catalog>
@@ -277,8 +280,8 @@
 			<Document>СписаниеБезналичныхДенежныхСредств</Document>
 			<Document>СчетФактураВыданный</Document>
 			<Document>СчетФактураПолученный</Document>
-			<Document>ТоварноТранспортнаяНакладнаяЕГАИС</Document>
 			<Document>ТранспортнаяНакладная</Document>
+			<Document>ТТНВходящаяЕГАИС</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>КомпанияЧастноеЛицо</Enum>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
@@ -302,11 +305,15 @@
 			<Enum>СостоянияЗаказовПоставщикам</Enum>
 			<Enum>СтатусыЗаказовПоставщикам</Enum>
 			<Enum>ФормыОплаты</Enum>
-			<Enum>СтатусыОбработкиТТН_ЕГАИС</Enum>
 			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
 			<Enum>ВариантыОплатыКлиентом</Enum>
 			<Enum>ТипыПлатежныхДокументов</Enum>
 			<Enum>ТипыСуммГрафикаКредитовИДепозитов</Enum>
+			<Enum>СпособыВыпускаВОборотГИСМ</Enum>
+			<Enum>ВидыКиЗГИСМ</Enum>
+			<Enum>РазмерыКиЗГИСМ</Enum>
+			<Enum>СтатусыИнформированияГИСМ</Enum>
+			<Enum>СтатусыОбработкиТТНВходящейЕГАИС</Enum>
 			<DataProcessor>Письмо_Обработка</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<InformationRegister>УчетнаяПолитикаОрганизаций</InformationRegister>

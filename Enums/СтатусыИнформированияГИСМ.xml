@@ -1,15 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<DefinedType uuid="215a06cd-e727-46a3-ba14-fd1312b045ac">
+	<Enum uuid="a564bd19-bce7-4569-a309-9927f149cdb6">
 		<InternalInfo>
-			<xr:GeneratedType name="DefinedType.Артикул" category="DefinedType">
-				<xr:TypeId>5a775dae-2fd5-4bef-a851-f69215d1f102</xr:TypeId>
-				<xr:ValueId>3860f9c8-6388-45ed-b945-6e0d35db5eed</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.СтатусыИнформированияГИСМ" category="Ref">
+				<xr:TypeId>9fa5a527-4e57-47a9-bfce-e4c08ac8092d</xr:TypeId>
+				<xr:ValueId>6dd2288f-dacb-4ef0-83f3-718d2a4799c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыИнформированияГИСМ" category="Manager">
+				<xr:TypeId>0065f70b-9a09-4c76-ad6b-d81c509be65f</xr:TypeId>
+				<xr:ValueId>52089a3e-4dee-4e75-8d39-3e3f7a195460</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыИнформированияГИСМ" category="List">
+				<xr:TypeId>af428856-91fa-4967-9de3-a2bfc3078feb</xr:TypeId>
+				<xr:ValueId>61e63817-995b-4ed8-8842-402cfd30f7b7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Артикул</Name>
+			<Name>СтатусыИнформированияГИСМ</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-	</DefinedType>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

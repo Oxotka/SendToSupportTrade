@@ -509,6 +509,13 @@
 															<ContextMenu name="КодОКВЭДКонтекстноеМеню" id="51"/>
 															<ExtendedTooltip name="КодОКВЭДРасширеннаяПодсказка" id="429"/>
 														</InputField>
+														<InputField name="КодОКВЭД2" id="872">
+															<DataPath>Объект.КодОКВЭД2</DataPath>
+															<Width>15</Width>
+															<ChoiceButton>true</ChoiceButton>
+															<ContextMenu name="КодОКВЭД2КонтекстноеМеню" id="873"/>
+															<ExtendedTooltip name="КодОКВЭД2РасширеннаяПодсказка" id="874"/>
+														</InputField>
 														<InputField name="КодПоОКПО" id="52">
 															<DataPath>Объект.КодПоОКПО</DataPath>
 															<Title>
@@ -630,7 +637,7 @@
 														</UsualGroup>
 														<LabelDecoration name="ПояснениеПрефиксаЮрЛица" id="208">
 															<Width>29</Width>
-															<Height>3</Height>
+															<Height>2</Height>
 															<TextColor>style:ПоясняющийТекст</TextColor>
 															<Title formatted="false">
 																<v8:item>
@@ -642,6 +649,46 @@
 															<ContextMenu name="ПояснениеПрефиксаЮрЛицаКонтекстноеМеню" id="209"/>
 															<ExtendedTooltip name="ПояснениеПрефиксаЮрЛицаExtendedTooltip" id="439"/>
 														</LabelDecoration>
+														<UsualGroup name="ГруппаGLN" id="859">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа GLN</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа GLN</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Horizontal</Group>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаGLNРасширеннаяПодсказка" id="860"/>
+															<ChildItems>
+																<InputField name="GLN" id="881">
+																	<DataPath>Объект.GLN</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>GLN</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>Left</TitleLocation>
+																	<Width>14</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<MaxWidth>14</MaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="GLNКонтекстноеМеню" id="883"/>
+																	<ExtendedTooltip name="GLNРасширеннаяПодсказка" id="841"/>
+																</InputField>
+																<Button name="ПолучитьGLNПоИННКППГИСМ" id="870">
+																	<Type>UsualButton</Type>
+																	<CommandName>Form.Command.ПолучитьGLNПоИННКППГИСМ</CommandName>
+																	<ExtendedTooltip name="ПолучитьGLNПоИННКППГИСМРасширеннаяПодсказка" id="871"/>
+																</Button>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -675,8 +722,23 @@
 															</Title>
 															<Width>15</Width>
 															<HorizontalStretch>false</HorizontalStretch>
+															<ChoiceButton>true</ChoiceButton>
 															<ContextMenu name="КодПоОКВЭДИндивидуальногоПредпринимателяКонтекстноеМеню" id="223"/>
 															<ExtendedTooltip name="КодПоОКВЭДИндивидуальногоПредпринимателяРасширеннаяПодсказка" id="450"/>
+														</InputField>
+														<InputField name="КодПоОКВЭД2ИндивидуальногоПредпринимателя" id="875">
+															<DataPath>Объект.КодОКВЭД2</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>ОКВЭД 2</v8:content>
+																</v8:item>
+															</Title>
+															<Width>15</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ChoiceButton>true</ChoiceButton>
+															<ContextMenu name="КодПоОКВЭД2ИндивидуальногоПредпринимателяКонтекстноеМеню" id="876"/>
+															<ExtendedTooltip name="КодПоОКВЭД2ИндивидуальногоПредпринимателяРасширеннаяПодсказка" id="877"/>
 														</InputField>
 														<InputField name="КодПоОКПОИндивидуальногоПредпринимателя" id="224">
 															<DataPath>Объект.КодПоОКПО</DataPath>
@@ -842,6 +904,43 @@
 															<ContextMenu name="ПояснениеПрефиксаИндивидуальногоПредпринимателяКонтекстноеМеню" id="229"/>
 															<ExtendedTooltip name="ПояснениеПрефиксаИндивидуальногоПредпринимателяExtendedTooltip" id="458"/>
 														</LabelDecoration>
+														<UsualGroup name="ГруппаGLNИП" id="868">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа GLNИП</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа GLNИП</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Group>Horizontal</Group>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаGLNИПРасширеннаяПодсказка" id="869"/>
+															<ChildItems>
+																<InputField name="GLNИП" id="845">
+																	<DataPath>Объект.GLN</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>GLN</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>Left</TitleLocation>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="GLNИПКонтекстноеМеню" id="846"/>
+																	<ExtendedTooltip name="GLNИПРасширеннаяПодсказка" id="847"/>
+																</InputField>
+																<Button name="ПолучитьGLNПоИННКППГИСМИП" id="866">
+																	<Type>UsualButton</Type>
+																	<CommandName>Form.Command.ПолучитьGLNПоИННКППГИСМ</CommandName>
+																	<ExtendedTooltip name="ПолучитьGLNПоИННКППГИСМИПРасширеннаяПодсказка" id="867"/>
+																</Button>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -884,8 +983,23 @@
 															</Title>
 															<Width>15</Width>
 															<HorizontalStretch>false</HorizontalStretch>
+															<ChoiceButton>true</ChoiceButton>
 															<ContextMenu name="КодПоОКВЭДОбособленногоПодразделенияКонтекстноеМеню" id="243"/>
 															<ExtendedTooltip name="КодПоОКВЭДОбособленногоПодразделенияРасширеннаяПодсказка" id="479"/>
+														</InputField>
+														<InputField name="КодПоОКВЭД2ОбособленногоПодразделения" id="878">
+															<DataPath>Объект.КодОКВЭД2</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>ОКВЭД 2</v8:content>
+																</v8:item>
+															</Title>
+															<Width>15</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ChoiceButton>true</ChoiceButton>
+															<ContextMenu name="КодПоОКВЭД2ОбособленногоПодразделенияКонтекстноеМеню" id="879"/>
+															<ExtendedTooltip name="КодПоОКВЭД2ОбособленногоПодразделенияРасширеннаяПодсказка" id="880"/>
 														</InputField>
 														<InputField name="КодПоОКПООбособленногоПодразделения" id="244">
 															<DataPath>Объект.КодПоОКПО</DataPath>
@@ -912,6 +1026,32 @@
 															<DataPath>Объект.ДатаРегистрации</DataPath>
 															<ContextMenu name="ДатаРегистрацииОбособленногоПодразделенияКонтекстноеМеню" id="240"/>
 															<ExtendedTooltip name="ДатаРегистрацииОбособленногоПодразделенияExtendedTooltip" id="482"/>
+														</InputField>
+														<InputField name="GLNОбособленногоПодразделения" id="851">
+															<DataPath>Объект.GLN</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>GLN</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>Left</TitleLocation>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="GLNОбособленногоПодразделенияКонтекстноеМеню" id="852"/>
+															<ExtendedTooltip name="GLNОбособленногоПодразделенияРасширеннаяПодсказка" id="853"/>
+														</InputField>
+														<InputField name="GCPОбособленногоПодразделения" id="854">
+															<DataPath>Объект.GCP</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>GCP</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>Left</TitleLocation>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="GCPОбособленногоПодразделенияКонтекстноеМеню" id="855"/>
+															<ExtendedTooltip name="GCPОбособленногоПодразделенияРасширеннаяПодсказка" id="856"/>
 														</InputField>
 													</ChildItems>
 												</UsualGroup>
@@ -3935,6 +4075,7 @@
 			</ToolTip>
 			<FunctionalOptions>
 				<Item>FunctionalOption.УправлениеПредприятием</Item>
+				<Item>FunctionalOption.КомплекснаяАвтоматизация</Item>
 			</FunctionalOptions>
 		</Command>
 		<Command name="СообщитьОПроблеме" id="30">
@@ -3955,6 +4096,29 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Письмо_СообщитьОПроблеме</Action>
+		</Command>
+		<Command name="ПолучитьGLNПоИННКППГИСМ" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить GLN по ИНН и КПП</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить GLN по ИНН\КПП</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ВестиУчетМаркировкиПродукцииВГИСМ</Item>
+			</FunctionalOptions>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 	</Commands>
 	<BaseForm version="2.1">
@@ -4455,6 +4619,13 @@
 																<ContextMenu name="КодОКВЭДКонтекстноеМеню" id="51"/>
 																<ExtendedTooltip name="КодОКВЭДРасширеннаяПодсказка" id="429"/>
 															</InputField>
+															<InputField name="КодОКВЭД2" id="872">
+																<DataPath>Объект.КодОКВЭД2</DataPath>
+																<Width>15</Width>
+																<ChoiceButton>true</ChoiceButton>
+																<ContextMenu name="КодОКВЭД2КонтекстноеМеню" id="873"/>
+																<ExtendedTooltip name="КодОКВЭД2РасширеннаяПодсказка" id="874"/>
+															</InputField>
 															<InputField name="КодПоОКПО" id="52">
 																<DataPath>Объект.КодПоОКПО</DataPath>
 																<Title>
@@ -4576,7 +4747,7 @@
 															</UsualGroup>
 															<LabelDecoration name="ПояснениеПрефиксаЮрЛица" id="208">
 																<Width>29</Width>
-																<Height>3</Height>
+																<Height>2</Height>
 																<TextColor>style:ПоясняющийТекст</TextColor>
 																<Title formatted="false">
 																	<v8:item>
@@ -4588,6 +4759,46 @@
 																<ContextMenu name="ПояснениеПрефиксаЮрЛицаКонтекстноеМеню" id="209"/>
 																<ExtendedTooltip name="ПояснениеПрефиксаЮрЛицаExtendedTooltip" id="439"/>
 															</LabelDecoration>
+															<UsualGroup name="ГруппаGLN" id="859">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Группа GLN</v8:content>
+																	</v8:item>
+																</Title>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Группа GLN</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<Group>Horizontal</Group>
+																<ShowTitle>false</ShowTitle>
+																<ExtendedTooltip name="ГруппаGLNРасширеннаяПодсказка" id="860"/>
+																<ChildItems>
+																	<InputField name="GLN" id="839">
+																		<DataPath>Объект.GLN</DataPath>
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>GLN</v8:content>
+																			</v8:item>
+																		</Title>
+																		<TitleLocation>Left</TitleLocation>
+																		<Width>14</Width>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>14</MaxWidth>
+																		<HorizontalStretch>false</HorizontalStretch>
+																		<ContextMenu name="GLNКонтекстноеМеню" id="840"/>
+																		<ExtendedTooltip name="GLNРасширеннаяПодсказка" id="841"/>
+																	</InputField>
+																	<Button name="ПолучитьGLNПоИННКППГИСМ" id="870">
+																		<Type>UsualButton</Type>
+																		<CommandName>Form.Command.ПолучитьGLNПоИННКППГИСМ</CommandName>
+																		<ExtendedTooltip name="ПолучитьGLNПоИННКППГИСМРасширеннаяПодсказка" id="871"/>
+																	</Button>
+																</ChildItems>
+															</UsualGroup>
 														</ChildItems>
 													</UsualGroup>
 												</ChildItems>
@@ -4621,8 +4832,23 @@
 																</Title>
 																<Width>15</Width>
 																<HorizontalStretch>false</HorizontalStretch>
+																<ChoiceButton>true</ChoiceButton>
 																<ContextMenu name="КодПоОКВЭДИндивидуальногоПредпринимателяКонтекстноеМеню" id="223"/>
 																<ExtendedTooltip name="КодПоОКВЭДИндивидуальногоПредпринимателяРасширеннаяПодсказка" id="450"/>
+															</InputField>
+															<InputField name="КодПоОКВЭД2ИндивидуальногоПредпринимателя" id="875">
+																<DataPath>Объект.КодОКВЭД2</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>ОКВЭД 2</v8:content>
+																	</v8:item>
+																</Title>
+																<Width>15</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ChoiceButton>true</ChoiceButton>
+																<ContextMenu name="КодПоОКВЭД2ИндивидуальногоПредпринимателяКонтекстноеМеню" id="876"/>
+																<ExtendedTooltip name="КодПоОКВЭД2ИндивидуальногоПредпринимателяРасширеннаяПодсказка" id="877"/>
 															</InputField>
 															<InputField name="КодПоОКПОИндивидуальногоПредпринимателя" id="224">
 																<DataPath>Объект.КодПоОКПО</DataPath>
@@ -4788,6 +5014,43 @@
 																<ContextMenu name="ПояснениеПрефиксаИндивидуальногоПредпринимателяКонтекстноеМеню" id="229"/>
 																<ExtendedTooltip name="ПояснениеПрефиксаИндивидуальногоПредпринимателяExtendedTooltip" id="458"/>
 															</LabelDecoration>
+															<UsualGroup name="ГруппаGLNИП" id="868">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Группа GLNИП</v8:content>
+																	</v8:item>
+																</Title>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Группа GLNИП</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<Group>Horizontal</Group>
+																<ShowTitle>false</ShowTitle>
+																<ExtendedTooltip name="ГруппаGLNИПРасширеннаяПодсказка" id="869"/>
+																<ChildItems>
+																	<InputField name="GLNИП" id="845">
+																		<DataPath>Объект.GLN</DataPath>
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>GLN</v8:content>
+																			</v8:item>
+																		</Title>
+																		<TitleLocation>Left</TitleLocation>
+																		<HorizontalStretch>false</HorizontalStretch>
+																		<ContextMenu name="GLNИПКонтекстноеМеню" id="846"/>
+																		<ExtendedTooltip name="GLNИПРасширеннаяПодсказка" id="847"/>
+																	</InputField>
+																	<Button name="ПолучитьGLNПоИННКППГИСМИП" id="866">
+																		<Type>UsualButton</Type>
+																		<CommandName>Form.Command.ПолучитьGLNПоИННКППГИСМ</CommandName>
+																		<ExtendedTooltip name="ПолучитьGLNПоИННКППГИСМИПРасширеннаяПодсказка" id="867"/>
+																	</Button>
+																</ChildItems>
+															</UsualGroup>
 														</ChildItems>
 													</UsualGroup>
 												</ChildItems>
@@ -4830,8 +5093,23 @@
 																</Title>
 																<Width>15</Width>
 																<HorizontalStretch>false</HorizontalStretch>
+																<ChoiceButton>true</ChoiceButton>
 																<ContextMenu name="КодПоОКВЭДОбособленногоПодразделенияКонтекстноеМеню" id="243"/>
 																<ExtendedTooltip name="КодПоОКВЭДОбособленногоПодразделенияРасширеннаяПодсказка" id="479"/>
+															</InputField>
+															<InputField name="КодПоОКВЭД2ОбособленногоПодразделения" id="878">
+																<DataPath>Объект.КодОКВЭД2</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>ОКВЭД 2</v8:content>
+																	</v8:item>
+																</Title>
+																<Width>15</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ChoiceButton>true</ChoiceButton>
+																<ContextMenu name="КодПоОКВЭД2ОбособленногоПодразделенияКонтекстноеМеню" id="879"/>
+																<ExtendedTooltip name="КодПоОКВЭД2ОбособленногоПодразделенияРасширеннаяПодсказка" id="880"/>
 															</InputField>
 															<InputField name="КодПоОКПООбособленногоПодразделения" id="244">
 																<DataPath>Объект.КодПоОКПО</DataPath>
@@ -4858,6 +5136,32 @@
 																<DataPath>Объект.ДатаРегистрации</DataPath>
 																<ContextMenu name="ДатаРегистрацииОбособленногоПодразделенияКонтекстноеМеню" id="240"/>
 																<ExtendedTooltip name="ДатаРегистрацииОбособленногоПодразделенияExtendedTooltip" id="482"/>
+															</InputField>
+															<InputField name="GLNОбособленногоПодразделения" id="851">
+																<DataPath>Объект.GLN</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>GLN</v8:content>
+																	</v8:item>
+																</Title>
+																<TitleLocation>Left</TitleLocation>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="GLNОбособленногоПодразделенияКонтекстноеМеню" id="852"/>
+																<ExtendedTooltip name="GLNОбособленногоПодразделенияРасширеннаяПодсказка" id="853"/>
+															</InputField>
+															<InputField name="GCPОбособленногоПодразделения" id="854">
+																<DataPath>Объект.GCP</DataPath>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>GCP</v8:content>
+																	</v8:item>
+																</Title>
+																<TitleLocation>Left</TitleLocation>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="GCPОбособленногоПодразделенияКонтекстноеМеню" id="855"/>
+																<ExtendedTooltip name="GCPОбособленногоПодразделенияРасширеннаяПодсказка" id="856"/>
 															</InputField>
 														</ChildItems>
 													</UsualGroup>
@@ -7881,7 +8185,31 @@
 				</ToolTip>
 				<FunctionalOptions>
 					<Item>FunctionalOption.УправлениеПредприятием</Item>
+					<Item>FunctionalOption.КомплекснаяАвтоматизация</Item>
 				</FunctionalOptions>
+			</Command>
+			<Command name="ПолучитьGLNПоИННКППГИСМ" id="30">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Получить GLN по ИНН и КПП</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Получить GLN по ИНН\КПП</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<FunctionalOptions>
+					<Item>FunctionalOption.ВестиУчетМаркировкиПродукцииВГИСМ</Item>
+				</FunctionalOptions>
+				<Representation>Picture</Representation>
+				<ModifiesSavedData>true</ModifiesSavedData>
 			</Command>
 		</Commands>
 	</BaseForm>

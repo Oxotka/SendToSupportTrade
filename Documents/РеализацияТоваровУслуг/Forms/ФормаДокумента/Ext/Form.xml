@@ -1214,10 +1214,10 @@
 							<ExtendedTooltip name="ГруппаОплата1РасширеннаяПодсказка" id="1391"/>
 							<ChildItems>
 								<LabelDecoration name="ЗаголовокОплата" id="1392">
-									<Title formatted="true">
+									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Оплата:       &lt;fontsize 6&gt;  &lt;/&gt;</v8:content>
+											<v8:content>Оплата:         </v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ЗаголовокОплатаКонтекстноеМеню" id="1393"/>
@@ -3497,24 +3497,77 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<LabelField name="СостояниеЭД" id="514">
-			<DataPath>ТекстСостоянияЭД</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<TitleLocation>None</TitleLocation>
+		<UsualGroup name="ГруппаЭДО_ГИСМ" id="1409">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ЭДО ГИСМ</v8:content>
+				</v8:item>
+			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Текущее состояние ЭД</v8:content>
+					<v8:content>Группа ЭДО ГИСМ</v8:content>
 				</v8:item>
 			</ToolTip>
-			<HorizontalAlign>Left</HorizontalAlign>
-			<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="515"/>
-			<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="945">
-				<HorizontalStretch>true</HorizontalStretch>
-				<HorizontalAlign>Right</HorizontalAlign>
-				<VerticalAlign>Top</VerticalAlign>
-			</ExtendedTooltip>
-		</LabelField>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЭДО_ГИСМРасширеннаяПодсказка" id="1411"/>
+			<ChildItems>
+				<LabelField name="СостояниеЭД" id="514">
+					<DataPath>ТекстСостоянияЭД</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текущее состояние ЭД</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="515"/>
+					<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="945">
+						<HorizontalStretch>true</HorizontalStretch>
+						<HorizontalAlign>Right</HorizontalAlign>
+						<VerticalAlign>Top</VerticalAlign>
+					</ExtendedTooltip>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИнтеграция" id="1404">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа интеграция</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа интеграция</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИнтеграцияРасширеннаяПодсказка" id="1405"/>
+			<ChildItems>
+				<LabelField name="ТекстУведомленияОбОтгрузкеГИСМ" id="1401">
+					<DataPath>ТекстУведомленияОбОтгрузкеГИСМ</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ТекстУведомленияОбОтгрузкеГИСМКонтекстноеМеню" id="1402"/>
+					<ExtendedTooltip name="ТекстУведомленияОбОтгрузкеГИСМРасширеннаяПодсказка" id="1403"/>
+				</LabelField>
+				<LabelField name="ТекстДокументаЕГАИС" id="1406">
+					<DataPath>ТекстДокументаЕГАИС</DataPath>
+					<Visible>false</Visible>
+					<TitleLocation>None</TitleLocation>
+					<ContextMenu name="ТекстДокументаЕГАИСКонтекстноеМеню" id="1407"/>
+					<ExtendedTooltip name="ТекстДокументаЕГАИСРасширеннаяПодсказка" id="1408"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -3930,8 +3983,8 @@
 				</v8:NumberQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
+				<Item>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="СуммаАвтоСкидки" id="17">
@@ -4381,8 +4434,8 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
-				<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
 				<Item>FunctionalOption.ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</Item>
+				<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="ИспользоватьЗаказыКлиентов" id="53">
@@ -5012,6 +5065,39 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстДокументаЕГАИС" id="99">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст документа ЕГАИС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстУведомленияОбОтгрузкеГИСМ" id="98">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст уведомления об отгрузке ГИСМ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ПоискПоШтрихкоду" id="1">
@@ -5093,8 +5179,8 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<FunctionalOptions>
-				<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
 				<Item>FunctionalOption.ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</Item>
+				<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
 				<Item>FunctionalOption.ИспользоватьОрдернуюСхемуПриОтгрузке</Item>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
@@ -9157,24 +9243,77 @@
 					</UsualGroup>
 				</ChildItems>
 			</UsualGroup>
-			<LabelField name="СостояниеЭД" id="514">
-				<DataPath>ТекстСостоянияЭД</DataPath>
-				<ReadOnly>true</ReadOnly>
-				<TitleLocation>None</TitleLocation>
+			<UsualGroup name="ГруппаЭДО_ГИСМ" id="1399">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа ЭДО ГИСМ</v8:content>
+					</v8:item>
+				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Текущее состояние ЭД</v8:content>
+						<v8:content>Группа ЭДО ГИСМ</v8:content>
 					</v8:item>
 				</ToolTip>
-				<HorizontalAlign>Left</HorizontalAlign>
-				<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="515"/>
-				<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="945">
-					<HorizontalStretch>true</HorizontalStretch>
-					<HorizontalAlign>Right</HorizontalAlign>
-					<VerticalAlign>Top</VerticalAlign>
-				</ExtendedTooltip>
-			</LabelField>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаЭДО_ГИСМРасширеннаяПодсказка" id="1400"/>
+				<ChildItems>
+					<LabelField name="СостояниеЭД" id="514">
+						<DataPath>ТекстСостоянияЭД</DataPath>
+						<ReadOnly>true</ReadOnly>
+						<TitleLocation>None</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Текущее состояние ЭД</v8:content>
+							</v8:item>
+						</ToolTip>
+						<HorizontalAlign>Left</HorizontalAlign>
+						<ContextMenu name="СостояниеЭДКонтекстноеМеню" id="515"/>
+						<ExtendedTooltip name="СостояниеЭДExtendedTooltip" id="945">
+							<HorizontalStretch>true</HorizontalStretch>
+							<HorizontalAlign>Right</HorizontalAlign>
+							<VerticalAlign>Top</VerticalAlign>
+						</ExtendedTooltip>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаИнтеграция" id="1404">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа интеграция</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа интеграция</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаИнтеграцияРасширеннаяПодсказка" id="1405"/>
+				<ChildItems>
+					<LabelField name="ТекстУведомленияОбОтгрузкеГИСМ" id="1401">
+						<DataPath>ТекстУведомленияОбОтгрузкеГИСМ</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<ContextMenu name="ТекстУведомленияОбОтгрузкеГИСМКонтекстноеМеню" id="1402"/>
+						<ExtendedTooltip name="ТекстУведомленияОбОтгрузкеГИСМРасширеннаяПодсказка" id="1403"/>
+					</LabelField>
+					<LabelField name="ТекстДокументаЕГАИС" id="1406">
+						<DataPath>ТекстДокументаЕГАИС</DataPath>
+						<Visible>false</Visible>
+						<TitleLocation>None</TitleLocation>
+						<ContextMenu name="ТекстДокументаЕГАИСКонтекстноеМеню" id="1407"/>
+						<ExtendedTooltip name="ТекстДокументаЕГАИСРасширеннаяПодсказка" id="1408"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
 		</ChildItems>
 		<Attributes>
 			<Attribute name="Объект" id="1">
@@ -10666,6 +10805,39 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать задания на перевозку для учета доставки перевозчиками</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ТекстУведомленияОбОтгрузкеГИСМ" id="98">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст уведомления об отгрузке ГИСМ</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ТекстДокументаЕГАИС" id="99">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст документа ЕГАИС</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ИспользоватьРасширеннуюФормуПодбораКоличестваИВариантовОбеспечения" id="100">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать расширенную форму подбора количества и вариантов обеспечения</v8:content>
 					</v8:item>
 				</Title>
 				<Type>

@@ -1,15 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<DefinedType uuid="215a06cd-e727-46a3-ba14-fd1312b045ac">
+	<Enum uuid="ab12ae25-8140-4c99-9df2-f8a938d64b68">
 		<InternalInfo>
-			<xr:GeneratedType name="DefinedType.Артикул" category="DefinedType">
-				<xr:TypeId>5a775dae-2fd5-4bef-a851-f69215d1f102</xr:TypeId>
-				<xr:ValueId>3860f9c8-6388-45ed-b945-6e0d35db5eed</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.СпособыВыпускаВОборотГИСМ" category="Ref">
+				<xr:TypeId>45d94b48-abe2-4489-8efb-e7a757c0d4b1</xr:TypeId>
+				<xr:ValueId>fd3b034d-8383-4c48-9f66-3b2ac86e8579</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВыпускаВОборотГИСМ" category="Manager">
+				<xr:TypeId>0b4e00bb-c4d2-479f-a452-62e80a7681be</xr:TypeId>
+				<xr:ValueId>4a67c3a1-3b96-41fc-a6ca-9bcf73cd18fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВыпускаВОборотГИСМ" category="List">
+				<xr:TypeId>645b3e8c-2a84-47e2-80c3-414a25848b0c</xr:TypeId>
+				<xr:ValueId>0afc4639-aa1a-4d24-bdf4-59da817b5a69</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Артикул</Name>
+			<Name>СпособыВыпускаВОборотГИСМ</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-	</DefinedType>
+		<ChildObjects/>
+	</Enum>
 </MetaDataObject>

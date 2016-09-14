@@ -938,10 +938,10 @@
 							<ExtendedTooltip name="ГруппаОплатаРасширеннаяПодсказка" id="1527"/>
 							<ChildItems>
 								<LabelDecoration name="ЗаголовокОплата" id="1530">
-									<Title formatted="true">
+									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Оплата:       &lt;fontsize 6&gt;  &lt;/&gt;</v8:content>
+											<v8:content>Оплата:         </v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ЗаголовокОплатаКонтекстноеМеню" id="1531"/>
@@ -991,6 +991,55 @@
 					<TitleDataPath>Объект.Товары.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаТоварыExtendedTooltip" id="1042"/>
 					<ChildItems>
+						<UsualGroup name="ГруппаКартинкаИНадписьНесколькоСкладов" id="1524">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа картинка и надпись несколько складов</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа картинка и надпись несколько складов</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКартинкаИНадписьНесколькоСкладовРасширеннаяПодсказка" id="1525"/>
+							<ChildItems>
+								<PictureDecoration name="КартинкаНесколькоСкладов" id="640">
+									<Width>2</Width>
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Картинка несколько складов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поступление осуществляется на несколько складов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Picture>
+										<xr:Ref>CommonPicture.Информация</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="641"/>
+									<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1038"/>
+								</PictureDecoration>
+								<LabelField name="НадписьНесколькоСкладов" id="664">
+									<DataPath>НадписьНесколькоСкладов</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<TextColor>#162779</TextColor>
+									<ContextMenu name="НадписьНесколькоСкладовКонтекстноеМеню" id="665"/>
+									<ExtendedTooltip name="НадписьНесколькоСкладовExtendedTooltip" id="1039"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
 						<Table name="Товары" id="35">
 							<SkipOnInput>false</SkipOnInput>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -1954,55 +2003,6 @@
 								</InputField>
 							</ChildItems>
 						</Table>
-						<UsualGroup name="ГруппаКартинкаИНадписьНесколькоСкладов" id="1524">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа картинка и надпись несколько складов</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа картинка и надпись несколько складов</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаКартинкаИНадписьНесколькоСкладовРасширеннаяПодсказка" id="1525"/>
-							<ChildItems>
-								<PictureDecoration name="КартинкаНесколькоСкладов" id="640">
-									<Width>2</Width>
-									<Height>1</Height>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Картинка несколько складов</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Поступление осуществляется на несколько складов</v8:content>
-										</v8:item>
-									</ToolTip>
-									<Picture>
-										<xr:Ref>CommonPicture.Информация</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
-									<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="641"/>
-									<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1038"/>
-								</PictureDecoration>
-								<LabelField name="НадписьНесколькоСкладов" id="664">
-									<DataPath>НадписьНесколькоСкладов</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<TextColor>#162779</TextColor>
-									<ContextMenu name="НадписьНесколькоСкладовКонтекстноеМеню" id="665"/>
-									<ExtendedTooltip name="НадписьНесколькоСкладовExtendedTooltip" id="1039"/>
-								</LabelField>
-							</ChildItems>
-						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаДоставка" id="1541">
@@ -3730,7 +3730,7 @@
 					<v8:content>Группа счет фактура и состояние</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Group>Horizontal</Group>
+			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСчетФактураИСостояниеРасширеннаяПодсказка" id="1435"/>
@@ -3825,6 +3825,7 @@
 											<v8:content>Группа страница текст счет фактура</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ГруппаСтраницаТекстЗаявлениеОВвозеТоваровРасширеннаяПодсказка" id="1504"/>
 									<ChildItems>
 										<LabelField name="ТекстЗаявлениеОВвозеТоваров" id="1505">
@@ -3836,7 +3837,8 @@
 												</v8:item>
 											</Title>
 											<TitleLocation>None</TitleLocation>
-											<Width>28</Width>
+											<Width>30</Width>
+											<HorizontalStretch>false</HorizontalStretch>
 											<Hiperlink>true</Hiperlink>
 											<ContextMenu name="ТекстЗаявлениеОВвозеТоваровКонтекстноеМеню" id="1506"/>
 											<ExtendedTooltip name="ТекстЗаявлениеОВвозеТоваровРасширеннаяПодсказка" id="1507"/>
@@ -3845,6 +3847,26 @@
 								</Page>
 							</ChildItems>
 						</Pages>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаМаркировкаТоваров" id="1834">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа маркировка товаров</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаМаркировкаТоваровРасширеннаяПодсказка" id="1836"/>
+					<ChildItems>
+						<LabelField name="ТекстУведомленияГИСМ" id="1831">
+							<DataPath>ТекстУведомленияГИСМПредставление</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="ТекстУведомленияГИСМКонтекстноеМеню" id="1832"/>
+							<ExtendedTooltip name="ТекстУведомленияГИСМРасширеннаяПодсказка" id="1833"/>
+						</LabelField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -5005,7 +5027,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:EnumRef.СтатусыОбработкиТТН_ЕГАИС</v8:Type>
+				<v8:Type>cfg:EnumRef.СтатусыОбработкиТТНВходящейЕГАИС</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ДатаНачалаЗакупокПоЕГАИС" id="75">
@@ -5020,6 +5042,43 @@
 				<v8:DateQualifiers>
 					<v8:DateFractions>Date</v8:DateFractions>
 				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстМаркировкаТоваров" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст маркировка товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстУведомленияГИСМ" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст уведомления ГИСМ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстУведомленияГИСМПредставление" id="78">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус ГИСМ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -6702,6 +6761,55 @@
 						<TitleDataPath>Объект.Товары.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="ГруппаТоварыExtendedTooltip" id="1042"/>
 						<ChildItems>
+							<UsualGroup name="ГруппаКартинкаИНадписьНесколькоСкладов" id="1524">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа картинка и надпись несколько складов</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа картинка и надпись несколько складов</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаКартинкаИНадписьНесколькоСкладовРасширеннаяПодсказка" id="1525"/>
+								<ChildItems>
+									<PictureDecoration name="КартинкаНесколькоСкладов" id="640">
+										<Width>2</Width>
+										<Height>1</Height>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Картинка несколько складов</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поступление осуществляется на несколько складов</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Picture>
+											<xr:Ref>CommonPicture.Информация</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="641"/>
+										<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1038"/>
+									</PictureDecoration>
+									<LabelField name="НадписьНесколькоСкладов" id="664">
+										<DataPath>НадписьНесколькоСкладов</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<TextColor>#162779</TextColor>
+										<ContextMenu name="НадписьНесколькоСкладовКонтекстноеМеню" id="665"/>
+										<ExtendedTooltip name="НадписьНесколькоСкладовExtendedTooltip" id="1039"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
 							<Table name="Товары" id="35">
 								<SkipOnInput>false</SkipOnInput>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -7665,55 +7773,6 @@
 									</InputField>
 								</ChildItems>
 							</Table>
-							<UsualGroup name="ГруппаКартинкаИНадписьНесколькоСкладов" id="1524">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа картинка и надпись несколько складов</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Группа картинка и надпись несколько складов</v8:content>
-									</v8:item>
-								</ToolTip>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаКартинкаИНадписьНесколькоСкладовРасширеннаяПодсказка" id="1525"/>
-								<ChildItems>
-									<PictureDecoration name="КартинкаНесколькоСкладов" id="640">
-										<Width>2</Width>
-										<Height>1</Height>
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Картинка несколько складов</v8:content>
-											</v8:item>
-										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Поступление осуществляется на несколько складов</v8:content>
-											</v8:item>
-										</ToolTip>
-										<Picture>
-											<xr:Ref>CommonPicture.Информация</xr:Ref>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
-										<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="641"/>
-										<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="1038"/>
-									</PictureDecoration>
-									<LabelField name="НадписьНесколькоСкладов" id="664">
-										<DataPath>НадписьНесколькоСкладов</DataPath>
-										<TitleLocation>None</TitleLocation>
-										<TextColor>#162779</TextColor>
-										<ContextMenu name="НадписьНесколькоСкладовКонтекстноеМеню" id="665"/>
-										<ExtendedTooltip name="НадписьНесколькоСкладовExtendedTooltip" id="1039"/>
-									</LabelField>
-								</ChildItems>
-							</UsualGroup>
 						</ChildItems>
 					</Page>
 					<Page name="СтраницаДоставка" id="1541">
@@ -9441,7 +9500,7 @@
 						<v8:content>Группа счет фактура и состояние</v8:content>
 					</v8:item>
 				</ToolTip>
-				<Group>Horizontal</Group>
+				<Group>Vertical</Group>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаСчетФактураИСостояниеРасширеннаяПодсказка" id="1435"/>
@@ -9536,6 +9595,7 @@
 												<v8:content>Группа страница текст счет фактура</v8:content>
 											</v8:item>
 										</ToolTip>
+										<Group>Horizontal</Group>
 										<ExtendedTooltip name="ГруппаСтраницаТекстЗаявлениеОВвозеТоваровРасширеннаяПодсказка" id="1504"/>
 										<ChildItems>
 											<LabelField name="ТекстЗаявлениеОВвозеТоваров" id="1505">
@@ -9547,7 +9607,8 @@
 													</v8:item>
 												</Title>
 												<TitleLocation>None</TitleLocation>
-												<Width>28</Width>
+												<Width>30</Width>
+												<HorizontalStretch>false</HorizontalStretch>
 												<Hiperlink>true</Hiperlink>
 												<ContextMenu name="ТекстЗаявлениеОВвозеТоваровКонтекстноеМеню" id="1506"/>
 												<ExtendedTooltip name="ТекстЗаявлениеОВвозеТоваровРасширеннаяПодсказка" id="1507"/>
@@ -9556,6 +9617,26 @@
 									</Page>
 								</ChildItems>
 							</Pages>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаМаркировкаТоваров" id="1763">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа маркировка товаров</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаМаркировкаТоваровРасширеннаяПодсказка" id="1764"/>
+						<ChildItems>
+							<LabelField name="ТекстУведомленияГИСМ" id="1831">
+								<DataPath>ТекстУведомленияГИСМПредставление</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<ContextMenu name="ТекстУведомленияГИСМКонтекстноеМеню" id="1832"/>
+								<ExtendedTooltip name="ТекстУведомленияГИСМРасширеннаяПодсказка" id="1833"/>
+							</LabelField>
 						</ChildItems>
 					</UsualGroup>
 				</ChildItems>
@@ -10716,7 +10797,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:EnumRef.СтатусыОбработкиТТН_ЕГАИС</v8:Type>
+					<v8:Type>cfg:EnumRef.СтатусыОбработкиТТНВходящейЕГАИС</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ДатаНачалаЗакупокПоЕГАИС" id="75">
@@ -10731,6 +10812,43 @@
 					<v8:DateQualifiers>
 						<v8:DateFractions>Date</v8:DateFractions>
 					</v8:DateQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ТекстМаркировкаТоваров" id="76">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст маркировка товаров</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ТекстУведомленияГИСМ" id="77">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Текст уведомления ГИСМ</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="ТекстУведомленияГИСМПредставление" id="78">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Статус ГИСМ</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
 		</Attributes>

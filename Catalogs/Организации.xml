@@ -211,6 +211,41 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="54b8f170-93ba-4ce6-a8ad-70591542229b">
+				<Properties>
+					<Name>GCP</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>11</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="360147db-9a1c-40a8-a405-98aab1c2c56f">
+				<Properties>
+					<Name>GLN</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.GLN</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a394c5b9-cd12-4103-9e31-ab43c83ca7ee">
+				<Properties>
+					<Name>КодОКВЭД2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>8</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>

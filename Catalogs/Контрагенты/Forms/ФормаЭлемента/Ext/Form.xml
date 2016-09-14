@@ -295,10 +295,10 @@
 											<ChildItems>
 												<LabelDecoration name="ЗаголовокИНН" id="132">
 													<HorizontalStretch>false</HorizontalStretch>
-													<Title formatted="true">
+													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>&lt;colorstyle -21&gt;ИНН:             &lt;/&gt;&lt;colorstyle -21&gt;   &lt;/&gt;</v8:content>
+															<v8:content>ИНН:                </v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ЗаголовокИННКонтекстноеМеню" id="133"/>

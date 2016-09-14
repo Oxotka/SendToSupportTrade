@@ -1211,6 +1211,7 @@
 													<v8:content>Ведомость на выплату зарплаты N</v8:content>
 												</v8:item>
 											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
 											<Wrap>false</Wrap>
 											<ContextMenu name="НомерВедомостиНаВыплатуЗарплатыКонтекстноеМеню" id="228"/>
 											<ExtendedTooltip name="НомерВедомостиНаВыплатуЗарплатыExtendedTooltip" id="258"/>
@@ -2205,7 +2206,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Сотрудник</v8:content>
+											<v8:content>Работник</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -4271,6 +4272,7 @@
 														<v8:content>Ведомость на выплату зарплаты N</v8:content>
 													</v8:item>
 												</Title>
+												<HorizontalStretch>false</HorizontalStretch>
 												<Wrap>false</Wrap>
 												<ContextMenu name="НомерВедомостиНаВыплатуЗарплатыКонтекстноеМеню" id="228"/>
 												<ExtendedTooltip name="НомерВедомостиНаВыплатуЗарплатыExtendedTooltip" id="258"/>
@@ -5265,7 +5267,7 @@
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Сотрудник</v8:content>
+												<v8:content>Работник</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
