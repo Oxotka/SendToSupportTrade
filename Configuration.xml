@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
 	<Configuration uuid="3cde748c-73c9-46d4-9f0c-fd195799fc55">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -38,14 +38,14 @@
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<NamePrefix>Письмо_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_8</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>1.1</Version>
+			<Version>1.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 		</Properties>
 		<ChildObjects>
@@ -281,7 +281,6 @@
 			<Document>СчетФактураВыданный</Document>
 			<Document>СчетФактураПолученный</Document>
 			<Document>ТранспортнаяНакладная</Document>
-			<Document>ТТНВходящаяЕГАИС</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>КомпанияЧастноеЛицо</Enum>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
@@ -313,7 +312,6 @@
 			<Enum>ВидыКиЗГИСМ</Enum>
 			<Enum>РазмерыКиЗГИСМ</Enum>
 			<Enum>СтатусыИнформированияГИСМ</Enum>
-			<Enum>СтатусыОбработкиТТНВходящейЕГАИС</Enum>
 			<DataProcessor>Письмо_Обработка</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<InformationRegister>УчетнаяПолитикаОрганизаций</InformationRegister>

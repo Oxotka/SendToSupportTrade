@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
 	<AutoTitle>false</AutoTitle>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -1377,7 +1377,7 @@
 							<v8:content>Страница калькуляция затрат</v8:content>
 						</v8:item>
 					</ToolTip>
-					<TitleDataPath>Объект.КалькуляцияЗатрат.RowsCount</TitleDataPath>
+					<TitleDataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/100000000</TitleDataPath>
 					<ExtendedTooltip name="СтраницаКалькуляцияЗатратРасширеннаяПодсказка" id="367"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаКалькуляцияЗатрат" id="431">
@@ -1402,7 +1402,7 @@
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
-									<DataPath>Объект.КалькуляцияЗатрат</DataPath>
+									<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578</DataPath>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="КалькуляцияЗатратКонтекстноеМеню" id="317"/>
 									<AutoCommandBar name="КалькуляцияЗатратКоманднаяПанель" id="318"/>
@@ -1433,28 +1433,28 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="КалькуляцияЗатратНомерСтроки" id="329">
-											<DataPath>Объект.КалькуляцияЗатрат.LineNumber</DataPath>
+											<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/-2</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="КалькуляцияЗатратНомерСтрокиКонтекстноеМеню" id="330"/>
 											<ExtendedTooltip name="КалькуляцияЗатратНомерСтрокиРасширеннаяПодсказка" id="331"/>
 										</LabelField>
 										<InputField name="КалькуляцияЗатратСтатьяКалькуляции" id="332">
-											<DataPath>Объект.КалькуляцияЗатрат.СтатьяКалькуляции</DataPath>
+											<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/0:b2d535a2-27b3-490c-88e1-983f736a6bc5</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="КалькуляцияЗатратСтатьяКалькуляцииКонтекстноеМеню" id="333"/>
 											<ExtendedTooltip name="КалькуляцияЗатратСтатьяКалькуляцииРасширеннаяПодсказка" id="334"/>
 										</InputField>
 										<InputField name="КалькуляцияЗатратСумма" id="335">
-											<DataPath>Объект.КалькуляцияЗатрат.Сумма</DataPath>
+											<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/0:08c0a183-c9d7-474d-bf52-eec6ea642742</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<FooterDataPath>Объект.КалькуляцияЗатрат.TotalСумма</FooterDataPath>
+											<FooterDataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/101000000:08c0a183-c9d7-474d-bf52-eec6ea642742</FooterDataPath>
 											<ContextMenu name="КалькуляцияЗатратСуммаКонтекстноеМеню" id="336"/>
 											<ExtendedTooltip name="КалькуляцияЗатратСуммаРасширеннаяПодсказка" id="337"/>
 										</InputField>
 										<InputField name="КалькуляцияЗатратСуммаКВозмещению" id="373">
-											<DataPath>Объект.КалькуляцияЗатрат.СуммаКВозмещению</DataPath>
+											<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/0:e0622b65-8f04-42ff-94aa-ba39e31f6945</DataPath>
 											<EditMode>EnterOnInput</EditMode>
-											<FooterDataPath>Объект.КалькуляцияЗатрат.TotalСуммаКВозмещению</FooterDataPath>
+											<FooterDataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/101000000:e0622b65-8f04-42ff-94aa-ba39e31f6945</FooterDataPath>
 											<ContextMenu name="КалькуляцияЗатратСуммаКВозмещениюКонтекстноеМеню" id="374"/>
 											<ExtendedTooltip name="КалькуляцияЗатратСуммаКВозмещениюРасширеннаяПодсказка" id="375"/>
 										</InputField>
@@ -1509,7 +1509,7 @@
 							<v8:content>Страница подтверждающие документы</v8:content>
 						</v8:item>
 					</ToolTip>
-					<TitleDataPath>Объект.ПодтверждающиеДокументы.RowsCount</TitleDataPath>
+					<TitleDataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/100000000</TitleDataPath>
 					<ExtendedTooltip name="СтраницаПодтверждающиеДокументыРасширеннаяПодсказка" id="524"/>
 					<ChildItems>
 						<Table name="ПодтверждающиеДокументы" id="611">
@@ -1517,7 +1517,7 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.ПодтверждающиеДокументы</DataPath>
+							<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ПодтверждающиеДокументыКонтекстноеМеню" id="612"/>
 							<AutoCommandBar name="ПодтверждающиеДокументыКоманднаяПанель" id="613">
@@ -1578,13 +1578,13 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="ПодтверждающиеДокументыНомерСтроки" id="654">
-									<DataPath>Объект.ПодтверждающиеДокументы.LineNumber</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/-2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПодтверждающиеДокументыНомерСтрокиКонтекстноеМеню" id="655"/>
 									<ExtendedTooltip name="ПодтверждающиеДокументыНомерСтрокиРасширеннаяПодсказка" id="656"/>
 								</LabelField>
 								<InputField name="ПодтверждающиеДокументыГосударственныйКонтракт" id="675">
-									<DataPath>Объект.ПодтверждающиеДокументы.ГосударственныйКонтракт</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:2e663b19-5e98-4cb0-9d6e-703b978bfcd7</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1596,34 +1596,34 @@
 									<ExtendedTooltip name="ПодтверждающиеДокументыГосударственныйКонтрактРасширеннаяПодсказка" id="677"/>
 								</InputField>
 								<InputField name="ПодтверждающиеДокументыВидДокумента" id="657">
-									<DataPath>Объект.ПодтверждающиеДокументы.ВидДокумента</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:c41aa17f-e665-403e-bd6c-dcec012d3da9</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПодтверждающиеДокументыВидДокументаКонтекстноеМеню" id="658"/>
 									<ExtendedTooltip name="ПодтверждающиеДокументыВидДокументаРасширеннаяПодсказка" id="659"/>
 								</InputField>
 								<InputField name="ПодтверждающиеДокументыНомер" id="660">
-									<DataPath>Объект.ПодтверждающиеДокументы.Номер</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:1ed97d11-54ff-4679-86b0-6b5237e39e50</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>20</Width>
 									<ContextMenu name="ПодтверждающиеДокументыНомерКонтекстноеМеню" id="661"/>
 									<ExtendedTooltip name="ПодтверждающиеДокументыНомерРасширеннаяПодсказка" id="662"/>
 								</InputField>
 								<InputField name="ПодтверждающиеДокументыДата" id="663">
-									<DataPath>Объект.ПодтверждающиеДокументы.Дата</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:bb047039-4f43-43c1-9540-bd05a7d4415c</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>15</Width>
 									<ContextMenu name="ПодтверждающиеДокументыДатаКонтекстноеМеню" id="664"/>
 									<ExtendedTooltip name="ПодтверждающиеДокументыДатаРасширеннаяПодсказка" id="665"/>
 								</InputField>
 								<InputField name="ПодтверждающиеДокументыСумма" id="666">
-									<DataPath>Объект.ПодтверждающиеДокументы.Сумма</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:2d0fe925-902f-46e2-9b4e-0cadd6811ed9</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>17</Width>
 									<ContextMenu name="ПодтверждающиеДокументыСуммаКонтекстноеМеню" id="667"/>
 									<ExtendedTooltip name="ПодтверждающиеДокументыСуммаРасширеннаяПодсказка" id="668"/>
 								</InputField>
 								<InputField name="ПодтверждающиеДокументыПодтверждающийДокумент" id="669">
-									<DataPath>Объект.ПодтверждающиеДокументы.ПодтверждающийДокумент</DataPath>
+									<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:cb89f8c1-11ed-44e9-9327-f96dccc24088</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ПодтверждающиеДокументыПодтверждающийДокументКонтекстноеМеню" id="670"/>
 									<ExtendedTooltip name="ПодтверждающиеДокументыПодтверждающийДокументРасширеннаяПодсказка" id="671"/>
@@ -2214,10 +2214,10 @@
 				<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>Письмо_СообщитьОПроблеме</Action>
+			<Action callType="Before">Письмо_СообщитьОПроблеме</Action>
 		</Command>
 	</Commands>
-	<BaseForm version="2.1">
+	<BaseForm version="2.2">
 		<AutoTitle>false</AutoTitle>
 		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -3583,7 +3583,7 @@
 								<v8:content>Страница калькуляция затрат</v8:content>
 							</v8:item>
 						</ToolTip>
-						<TitleDataPath>Объект.КалькуляцияЗатрат.RowsCount</TitleDataPath>
+						<TitleDataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/100000000</TitleDataPath>
 						<ExtendedTooltip name="СтраницаКалькуляцияЗатратРасширеннаяПодсказка" id="367"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаКалькуляцияЗатрат" id="431">
@@ -3608,7 +3608,7 @@
 										<AutoInsertNewRow>true</AutoInsertNewRow>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
-										<DataPath>Объект.КалькуляцияЗатрат</DataPath>
+										<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578</DataPath>
 										<RowFilter xsi:nil="true"/>
 										<ContextMenu name="КалькуляцияЗатратКонтекстноеМеню" id="317"/>
 										<AutoCommandBar name="КалькуляцияЗатратКоманднаяПанель" id="318"/>
@@ -3639,28 +3639,28 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<LabelField name="КалькуляцияЗатратНомерСтроки" id="329">
-												<DataPath>Объект.КалькуляцияЗатрат.LineNumber</DataPath>
+												<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/-2</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="КалькуляцияЗатратНомерСтрокиКонтекстноеМеню" id="330"/>
 												<ExtendedTooltip name="КалькуляцияЗатратНомерСтрокиРасширеннаяПодсказка" id="331"/>
 											</LabelField>
 											<InputField name="КалькуляцияЗатратСтатьяКалькуляции" id="332">
-												<DataPath>Объект.КалькуляцияЗатрат.СтатьяКалькуляции</DataPath>
+												<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/0:b2d535a2-27b3-490c-88e1-983f736a6bc5</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="КалькуляцияЗатратСтатьяКалькуляцииКонтекстноеМеню" id="333"/>
 												<ExtendedTooltip name="КалькуляцияЗатратСтатьяКалькуляцииРасширеннаяПодсказка" id="334"/>
 											</InputField>
 											<InputField name="КалькуляцияЗатратСумма" id="335">
-												<DataPath>Объект.КалькуляцияЗатрат.Сумма</DataPath>
+												<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/0:08c0a183-c9d7-474d-bf52-eec6ea642742</DataPath>
 												<EditMode>EnterOnInput</EditMode>
-												<FooterDataPath>Объект.КалькуляцияЗатрат.TotalСумма</FooterDataPath>
+												<FooterDataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/101000000:08c0a183-c9d7-474d-bf52-eec6ea642742</FooterDataPath>
 												<ContextMenu name="КалькуляцияЗатратСуммаКонтекстноеМеню" id="336"/>
 												<ExtendedTooltip name="КалькуляцияЗатратСуммаРасширеннаяПодсказка" id="337"/>
 											</InputField>
 											<InputField name="КалькуляцияЗатратСуммаКВозмещению" id="373">
-												<DataPath>Объект.КалькуляцияЗатрат.СуммаКВозмещению</DataPath>
+												<DataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/0:e0622b65-8f04-42ff-94aa-ba39e31f6945</DataPath>
 												<EditMode>EnterOnInput</EditMode>
-												<FooterDataPath>Объект.КалькуляцияЗатрат.TotalСуммаКВозмещению</FooterDataPath>
+												<FooterDataPath>1/0:52cbd84a-2d77-44c8-9a76-6cbdd04f6578/101000000:e0622b65-8f04-42ff-94aa-ba39e31f6945</FooterDataPath>
 												<ContextMenu name="КалькуляцияЗатратСуммаКВозмещениюКонтекстноеМеню" id="374"/>
 												<ExtendedTooltip name="КалькуляцияЗатратСуммаКВозмещениюРасширеннаяПодсказка" id="375"/>
 											</InputField>
@@ -3715,7 +3715,7 @@
 								<v8:content>Страница подтверждающие документы</v8:content>
 							</v8:item>
 						</ToolTip>
-						<TitleDataPath>Объект.ПодтверждающиеДокументы.RowsCount</TitleDataPath>
+						<TitleDataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/100000000</TitleDataPath>
 						<ExtendedTooltip name="СтраницаПодтверждающиеДокументыРасширеннаяПодсказка" id="524"/>
 						<ChildItems>
 							<Table name="ПодтверждающиеДокументы" id="611">
@@ -3723,7 +3723,7 @@
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
-								<DataPath>Объект.ПодтверждающиеДокументы</DataPath>
+								<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d</DataPath>
 								<RowFilter xsi:nil="true"/>
 								<ContextMenu name="ПодтверждающиеДокументыКонтекстноеМеню" id="612"/>
 								<AutoCommandBar name="ПодтверждающиеДокументыКоманднаяПанель" id="613">
@@ -3784,13 +3784,13 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="ПодтверждающиеДокументыНомерСтроки" id="654">
-										<DataPath>Объект.ПодтверждающиеДокументы.LineNumber</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/-2</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ПодтверждающиеДокументыНомерСтрокиКонтекстноеМеню" id="655"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыНомерСтрокиРасширеннаяПодсказка" id="656"/>
 									</LabelField>
 									<InputField name="ПодтверждающиеДокументыГосударственныйКонтракт" id="675">
-										<DataPath>Объект.ПодтверждающиеДокументы.ГосударственныйКонтракт</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:2e663b19-5e98-4cb0-9d6e-703b978bfcd7</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -3802,34 +3802,34 @@
 										<ExtendedTooltip name="ПодтверждающиеДокументыГосударственныйКонтрактРасширеннаяПодсказка" id="677"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыВидДокумента" id="657">
-										<DataPath>Объект.ПодтверждающиеДокументы.ВидДокумента</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:c41aa17f-e665-403e-bd6c-dcec012d3da9</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ПодтверждающиеДокументыВидДокументаКонтекстноеМеню" id="658"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыВидДокументаРасширеннаяПодсказка" id="659"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыНомер" id="660">
-										<DataPath>Объект.ПодтверждающиеДокументы.Номер</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:1ed97d11-54ff-4679-86b0-6b5237e39e50</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>20</Width>
 										<ContextMenu name="ПодтверждающиеДокументыНомерКонтекстноеМеню" id="661"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыНомерРасширеннаяПодсказка" id="662"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыДата" id="663">
-										<DataPath>Объект.ПодтверждающиеДокументы.Дата</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:bb047039-4f43-43c1-9540-bd05a7d4415c</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>15</Width>
 										<ContextMenu name="ПодтверждающиеДокументыДатаКонтекстноеМеню" id="664"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыДатаРасширеннаяПодсказка" id="665"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыСумма" id="666">
-										<DataPath>Объект.ПодтверждающиеДокументы.Сумма</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:2d0fe925-902f-46e2-9b4e-0cadd6811ed9</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>17</Width>
 										<ContextMenu name="ПодтверждающиеДокументыСуммаКонтекстноеМеню" id="667"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыСуммаРасширеннаяПодсказка" id="668"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыПодтверждающийДокумент" id="669">
-										<DataPath>Объект.ПодтверждающиеДокументы.ПодтверждающийДокумент</DataPath>
+										<DataPath>1/0:f21eda29-53ac-498f-a3e2-a84d7381512d/0:cb89f8c1-11ed-44e9-9327-f96dccc24088</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ПодтверждающиеДокументыПодтверждающийДокументКонтекстноеМеню" id="670"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыПодтверждающийДокументРасширеннаяПодсказка" id="671"/>

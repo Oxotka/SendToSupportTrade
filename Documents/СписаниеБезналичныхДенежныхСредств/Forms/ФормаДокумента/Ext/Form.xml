@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
 	<CommandSet>
 		<ExcludedCommand>PostAndClose</ExcludedCommand>
 	</CommandSet>
@@ -1462,7 +1462,7 @@
 							<v8:content>Страница расшифровка</v8:content>
 						</v8:item>
 					</ToolTip>
-					<TitleDataPath>Объект.РасшифровкаПлатежа.RowsCount</TitleDataPath>
+					<TitleDataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/100000000</TitleDataPath>
 					<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="502"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаКомандыРасшифровки" id="669">
@@ -1565,7 +1565,7 @@
 									<ExtendedTooltip name="РасшифровкаБезРазбиенияРасширеннаяПодсказка" id="603"/>
 									<ChildItems>
 										<InputField name="РасшифровкаБезРазбиенияЗаявкаНаРасходованиеДенежныхСредств" id="606">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ЗаявкаНаРасходованиеДенежныхСредств</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:5f73a5c6-25c0-4ba5-928c-f1d6fc1f1ec0</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1579,7 +1579,7 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияЗаявкаНаРасходованиеДенежныхСредствРасширеннаяПодсказка" id="608"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияЗаказ" id="609">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.Заказ</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:61e69cf6-dcc1-4c9f-82e2-5767a0f6572b</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<DropListButton>false</DropListButton>
@@ -1588,28 +1588,28 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияЗаказРасширеннаяПодсказка" id="611"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияПартнер" id="612">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.Партнер</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:3ede4b3e-f9d5-41e6-8cfd-44c0c4f5b075</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияПартнерКонтекстноеМеню" id="613"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияПартнерРасширеннаяПодсказка" id="614"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияДоговорКредитаДепозита" id="615">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорКредитаДепозита</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:779d7b71-80c3-4ca7-8305-40a9bae37161</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаКонтекстноеМеню" id="616"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаРасширеннаяПодсказка" id="617"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияДоговорЗаймаСотруднику" id="618">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорЗаймаСотруднику</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:a6378026-0f32-48f1-8657-e04a1d676660</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуКонтекстноеМеню" id="619"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="620"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозита" id="627">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ТипСуммыКредитаДепозита</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:971fd886-585b-4de4-8194-171dcd1c7b9b</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ListChoiceMode>true</ListChoiceMode>
@@ -1617,14 +1617,14 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозитаРасширеннаяПодсказка" id="629"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияДоговорЛизинга" id="621">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорЛизинга</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:76cbd3a2-362a-468b-8565-0eec789b90ca</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияДоговорЛизингаКонтекстноеМеню" id="622"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЛизингаРасширеннаяПодсказка" id="623"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингу" id="624">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ТипПлатежаПоЛизингу</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:0fe9caa2-9b2c-4360-9df1-ab34bd777d00</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингуКонтекстноеМеню" id="625"/>
@@ -1649,7 +1649,7 @@
 											<ExtendedTooltip name="ГруппаСуммаВзаиморасчетовРасширеннаяПодсказка" id="631"/>
 											<ChildItems>
 												<InputField name="РасшифровкаБезРазбиенияСуммаВзаиморасчетов" id="632">
-													<DataPath>Items.РасшифровкаПлатежа.CurrentData.СуммаВзаиморасчетов</DataPath>
+													<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:833614f9-dc7b-4a92-bef3-9db7691edec8</DataPath>
 													<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 													<WarningOnEdit>
 														<v8:item>
@@ -1661,7 +1661,7 @@
 													<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаВзаиморасчетовРасширеннаяПодсказка" id="634"/>
 												</InputField>
 												<InputField name="РасшифровкаБезРазбиенияВалютаВзаиморасчетов" id="635">
-													<DataPath>Items.РасшифровкаПлатежа.CurrentData.ВалютаВзаиморасчетов</DataPath>
+													<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:d5c5a3a5-fa34-43db-bf5c-5f47a08bcacf</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1677,7 +1677,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредств" id="661">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтатьяДвиженияДенежныхСредств</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:01642c1a-e032-4607-b195-31837243efbf</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1690,7 +1690,7 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="663"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияСтатьяРасходов" id="638">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтатьяРасходов</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:a01b5cce-646c-4a6e-95ea-26ceb3a6aa95</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<DropListButton>true</DropListButton>
@@ -1731,14 +1731,14 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияГруппаАналитикаРасширеннаяПодсказка" id="642"/>
 											<ChildItems>
 												<InputField name="РасшифровкаБезРазбиенияАналитикаРасходов" id="643">
-													<DataPath>Items.РасшифровкаПлатежа.CurrentData.АналитикаРасходов</DataPath>
+													<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:a62f150b-2a84-4eb9-b003-360d4a592033</DataPath>
 													<Width>38</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="РасшифровкаБезРазбиенияАналитикаРасходовКонтекстноеМеню" id="644"/>
 													<ExtendedTooltip name="РасшифровкаБезРазбиенияАналитикаРасходовРасширеннаяПодсказка" id="645"/>
 												</InputField>
 												<InputField name="РасшифровкаБезРазбиенияАналитикаАктивовПассивов" id="646">
-													<DataPath>Items.РасшифровкаПлатежа.CurrentData.АналитикаАктивовПассивов</DataPath>
+													<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:c59c9f6a-fbae-4a9c-b472-ed4f20b975f3</DataPath>
 													<Width>38</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="РасшифровкаБезРазбиенияАналитикаАктивовПассивовКонтекстноеМеню" id="647"/>
@@ -1747,7 +1747,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<LabelField name="РасшифровкаБезРазбиенияПредставлениеОтраженияВРеглУчете" id="649">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ПредставлениеОтраженияВРеглУчете</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1761,14 +1761,14 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="651"/>
 										</LabelField>
 										<InputField name="РасшифровкаБезРазбиенияПодразделение" id="652">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.Подразделение</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:533f5fbe-14fe-4429-954a-a45b4f72806a</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияПодразделениеКонтекстноеМеню" id="653"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияПодразделениеРасширеннаяПодсказка" id="654"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияОрганизация" id="655">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.Организация</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:1f645d24-0612-433f-b35e-f94aefd1d6d6</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -1776,12 +1776,12 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияОрганизацияРасширеннаяПодсказка" id="657"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияПериодВозникновенияРасхода" id="666">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.ПериодВозникновенияРасхода</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:f5b3e7d7-b540-4761-9efb-dbd471f834f6</DataPath>
 											<ContextMenu name="РасшифровкаБезРазбиенияПериодВозникновенияРасходаКонтекстноеМеню" id="667"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияПериодВозникновенияРасходаРасширеннаяПодсказка" id="668"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияКомментарий" id="658">
-											<DataPath>Items.РасшифровкаПлатежа.CurrentData.Комментарий</DataPath>
+											<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:eb991f01-a60b-48d5-9a75-d6675ffac2d1</DataPath>
 											<Width>38</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="РасшифровкаБезРазбиенияКомментарийКонтекстноеМеню" id="659"/>
@@ -1810,7 +1810,7 @@
 											<Height>6</Height>
 											<Footer>true</Footer>
 											<AutoAddIncomplete>false</AutoAddIncomplete>
-											<DataPath>Объект.РасшифровкаПлатежа</DataPath>
+											<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b</DataPath>
 											<SearchStringLocation>None</SearchStringLocation>
 											<ViewStatusLocation>None</ViewStatusLocation>
 											<SearchControlLocation>None</SearchControlLocation>
@@ -1863,13 +1863,13 @@
 											</SearchControlAddition>
 											<ChildItems>
 												<InputField name="РасшифровкаПлатежаНомерСтроки" id="28">
-													<DataPath>Объект.РасшифровкаПлатежа.LineNumber</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/-2</DataPath>
 													<Wrap>false</Wrap>
 													<ContextMenu name="РасшифровкаПлатежаНомерСтрокиКонтекстноеМеню" id="29"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаНомерСтрокиExtendedTooltip" id="280"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаЗаявкаНаРасходованиеДенежныхСредств" id="387">
-													<DataPath>Объект.РасшифровкаПлатежа.ЗаявкаНаРасходованиеДенежныхСредств</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:5f73a5c6-25c0-4ba5-928c-f1d6fc1f1ec0</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1878,7 +1878,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаЗаявкаНаРасходованиеДенежныхСредствРасширеннаяПодсказка" id="389"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаЗаказ" id="34">
-													<DataPath>Объект.РасшифровкаПлатежа.Заказ</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:61e69cf6-dcc1-4c9f-82e2-5767a0f6572b</DataPath>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1888,7 +1888,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаЗаказExtendedTooltip" id="281"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаПартнер" id="191">
-													<DataPath>Объект.РасшифровкаПлатежа.Партнер</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:3ede4b3e-f9d5-41e6-8cfd-44c0c4f5b075</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1897,7 +1897,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаПартнерExtendedTooltip" id="282"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаДоговорКредитаДепозита" id="222">
-													<DataPath>Объект.РасшифровкаПлатежа.ДоговорКредитаДепозита</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:779d7b71-80c3-4ca7-8305-40a9bae37161</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1906,13 +1906,13 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорКредитаДепозитаExtendedTooltip" id="283"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаДоговорЗаймаСотруднику" id="542">
-													<DataPath>Объект.РасшифровкаПлатежа.ДоговорЗаймаСотруднику</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:a6378026-0f32-48f1-8657-e04a1d676660</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="РасшифровкаПлатежаДоговорЗаймаСотрудникуКонтекстноеМеню" id="543"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="544"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаДоговорЛизинга" id="446">
-													<DataPath>Объект.РасшифровкаПлатежа.ДоговорЛизинга</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:76cbd3a2-362a-468b-8565-0eec789b90ca</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -1921,14 +1921,14 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорЛизингаРасширеннаяПодсказка" id="448"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаТипПлатежаПоЛизингу" id="449">
-													<DataPath>Объект.РасшифровкаПлатежа.ТипПлатежаПоЛизингу</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:0fe9caa2-9b2c-4360-9df1-ab34bd777d00</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ListChoiceMode>true</ListChoiceMode>
 													<ContextMenu name="РасшифровкаПлатежаТипПлатежаПоЛизингуКонтекстноеМеню" id="450"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаТипПлатежаПоЛизингуРасширеннаяПодсказка" id="451"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаТипСуммыКредитаДепозита" id="545">
-													<DataPath>Объект.РасшифровкаПлатежа.ТипСуммыКредитаДепозита</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:971fd886-585b-4de4-8194-171dcd1c7b9b</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>12</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -1937,15 +1937,15 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаТипСуммыКредитаДепозитаРасширеннаяПодсказка" id="547"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаСумма" id="36">
-													<DataPath>Объект.РасшифровкаПлатежа.Сумма</DataPath>
-													<FooterDataPath>Объект.РасшифровкаПлатежа.TotalСумма</FooterDataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:7d546f0a-9866-4bdd-bd4c-2ce5f5044fa0</DataPath>
+													<FooterDataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/101000000:7d546f0a-9866-4bdd-bd4c-2ce5f5044fa0</FooterDataPath>
 													<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 													<Wrap>false</Wrap>
 													<ContextMenu name="РасшифровкаПлатежаСуммаКонтекстноеМеню" id="37"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаСуммаExtendedTooltip" id="285"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаСуммаВзаиморасчетов" id="124">
-													<DataPath>Объект.РасшифровкаПлатежа.СуммаВзаиморасчетов</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:833614f9-dc7b-4a92-bef3-9db7691edec8</DataPath>
 													<SkipOnInput>true</SkipOnInput>
 													<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 													<WarningOnEdit>
@@ -1958,7 +1958,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовExtendedTooltip" id="286"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаВалютаВзаиморасчетов" id="122">
-													<DataPath>Объект.РасшифровкаПлатежа.ВалютаВзаиморасчетов</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:d5c5a3a5-fa34-43db-bf5c-5f47a08bcacf</DataPath>
 													<SkipOnInput>true</SkipOnInput>
 													<Title>
 														<v8:item>
@@ -1970,7 +1970,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаВалютаВзаиморасчетовExtendedTooltip" id="287"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредств" id="224">
-													<DataPath>Объект.РасшифровкаПлатежа.СтатьяДвиженияДенежныхСредств</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:01642c1a-e032-4607-b195-31837243efbf</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1985,7 +1985,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствExtendedTooltip" id="284"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаСтатьяРасходов" id="91">
-													<DataPath>Объект.РасшифровкаПлатежа.СтатьяРасходов</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:a01b5cce-646c-4a6e-95ea-26ceb3a6aa95</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2028,7 +2028,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаГруппаАналитикаРасширеннаяПодсказка" id="521"/>
 													<ChildItems>
 														<InputField name="РасшифровкаПлатежаАналитикаРасходов" id="93">
-															<DataPath>Объект.РасшифровкаПлатежа.АналитикаРасходов</DataPath>
+															<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:a62f150b-2a84-4eb9-b003-360d4a592033</DataPath>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
 															<Wrap>false</Wrap>
@@ -2040,7 +2040,7 @@
 															<ExtendedTooltip name="РасшифровкаПлатежаАналитикаРасходовExtendedTooltip" id="289"/>
 														</InputField>
 														<InputField name="РасшифровкаПлатежаАналитикаАктивовПассивов" id="522">
-															<DataPath>Объект.РасшифровкаПлатежа.АналитикаАктивовПассивов</DataPath>
+															<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:c59c9f6a-fbae-4a9c-b472-ed4f20b975f3</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
@@ -2069,7 +2069,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаГруппаСчетРеглУчетаРасширеннаяПодсказка" id="526"/>
 													<ChildItems>
 														<InputField name="РасшифровкаПлатежаСчетРеглУчетаРасходов" id="527">
-															<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
+															<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<ShowInHeader>false</ShowInHeader>
 															<ShowInFooter>false</ShowInFooter>
@@ -2077,7 +2077,7 @@
 															<ExtendedTooltip name="РасшифровкаПлатежаСчетРеглУчетаРасходовРасширеннаяПодсказка" id="529"/>
 														</InputField>
 														<InputField name="РасшифровкаПлатежаСчетРеглУчетаАктивовПассивов" id="530">
-															<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
+															<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<CellHyperlink>true</CellHyperlink>
@@ -2089,7 +2089,7 @@
 													</ChildItems>
 												</ColumnGroup>
 												<InputField name="РасшифровкаПлатежаПодразделение" id="104">
-													<DataPath>Объект.РасшифровкаПлатежа.Подразделение</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:533f5fbe-14fe-4429-954a-a45b4f72806a</DataPath>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
@@ -2098,21 +2098,21 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаПодразделениеExtendedTooltip" id="290"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаОрганизация" id="432">
-													<DataPath>Объект.РасшифровкаПлатежа.Организация</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:1f645d24-0612-433f-b35e-f94aefd1d6d6</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="РасшифровкаПлатежаОрганизацияКонтекстноеМеню" id="433"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаОрганизацияРасширеннаяПодсказка" id="434"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаПериодВозникновенияРасхода" id="170">
-													<DataPath>Объект.РасшифровкаПлатежа.ПериодВозникновенияРасхода</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:f5b3e7d7-b540-4761-9efb-dbd471f834f6</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ChoiceListButton>true</ChoiceListButton>
 													<ContextMenu name="РасшифровкаПлатежаПериодВозникновенияРасходаКонтекстноеМеню" id="171"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаПериодВозникновенияРасходаExtendedTooltip" id="291"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаКомментарий" id="390">
-													<DataPath>Объект.РасшифровкаПлатежа.Комментарий</DataPath>
+													<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:eb991f01-a60b-48d5-9a75-d6675ffac2d1</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInFooter>false</ShowInFooter>
 													<ContextMenu name="РасшифровкаПлатежаКомментарийКонтекстноеМеню" id="391"/>
@@ -2139,7 +2139,7 @@
 							<v8:content>Страница ведомости на выплату зарплаты</v8:content>
 						</v8:item>
 					</ToolTip>
-					<TitleDataPath>Объект.ВедомостиНаВыплатуЗарплаты.RowsCount</TitleDataPath>
+					<TitleDataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/100000000</TitleDataPath>
 					<ExtendedTooltip name="СтраницаВедомостиНаВыплатуЗарплатыРасширеннаяПодсказка" id="292"/>
 					<ChildItems>
 						<Table name="ВедомостиНаВыплатуЗарплаты" id="209">
@@ -2147,7 +2147,7 @@
 							<AutoAddIncomplete>false</AutoAddIncomplete>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.ВедомостиНаВыплатуЗарплаты</DataPath>
+							<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f</DataPath>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
 							<SearchControlLocation>None</SearchControlLocation>
@@ -2189,19 +2189,19 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="ВедомостиНаВыплатуЗарплатыНомерСтроки" id="212">
-									<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.LineNumber</DataPath>
+									<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/-2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ВедомостиНаВыплатуЗарплатыНомерСтрокиКонтекстноеМеню" id="213"/>
 									<ExtendedTooltip name="ВедомостиНаВыплатуЗарплатыНомерСтрокиExtendedTooltip" id="295"/>
 								</LabelField>
 								<InputField name="ВедомостиНаВыплатуЗарплатыВедомость" id="214">
-									<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.Ведомость</DataPath>
+									<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/0:a0db23da-0c28-4ae4-9c9e-96503518e660</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ВедомостиНаВыплатуЗарплатыВедомостьКонтекстноеМеню" id="215"/>
 									<ExtendedTooltip name="ВедомостиНаВыплатуЗарплатыВедомостьExtendedTooltip" id="296"/>
 								</InputField>
 								<InputField name="ВедомостиНаВыплатуЗарплатыФизическоеЛицо" id="427">
-									<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.ФизическоеЛицо</DataPath>
+									<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/0:7a4b8f9c-033a-419f-8b48-9c687fd03cf8</DataPath>
 									<Visible>false</Visible>
 									<Title>
 										<v8:item>
@@ -2217,7 +2217,7 @@
 									<ExtendedTooltip name="ВедомостиНаВыплатуЗарплатыФизическоеЛицоРасширеннаяПодсказка" id="429"/>
 								</InputField>
 								<InputField name="ВедомостиНаВыплатуЗарплатыСумма" id="216">
-									<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.Сумма</DataPath>
+									<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/0:84f0603d-cbe7-4cfb-aa44-bb4fc424359b</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ВедомостиНаВыплатуЗарплатыСуммаКонтекстноеМеню" id="217"/>
@@ -2383,11 +2383,11 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<UseAlways>
-				<Field>Объект.РасшифровкаПлатежа.ИдентификаторСтроки</Field>
 				<Field>Объект.RegisterRecords</Field>
+				<Field>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:aaa5920b-a6fd-4446-9b5e-4094b617f90c</Field>
 			</UseAlways>
 			<Columns>
-				<AdditionalColumns table="Объект.РасшифровкаПлатежа">
+				<AdditionalColumns table="1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b">
 					<Column name="АналитикаРасходовОбязательна" id="2">
 						<Title>
 							<v8:item>
@@ -3069,10 +3069,10 @@
 				<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>Письмо_СообщитьОПроблеме</Action>
+			<Action callType="Before">Письмо_СообщитьОПроблеме</Action>
 		</Command>
 	</Commands>
-	<BaseForm version="2.1">
+	<BaseForm version="2.2">
 		<CommandSet>
 			<ExcludedCommand>PostAndClose</ExcludedCommand>
 		</CommandSet>
@@ -4523,7 +4523,7 @@
 								<v8:content>Страница расшифровка</v8:content>
 							</v8:item>
 						</ToolTip>
-						<TitleDataPath>Объект.РасшифровкаПлатежа.RowsCount</TitleDataPath>
+						<TitleDataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/100000000</TitleDataPath>
 						<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="502"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаКомандыРасшифровки" id="669">
@@ -4626,7 +4626,7 @@
 										<ExtendedTooltip name="РасшифровкаБезРазбиенияРасширеннаяПодсказка" id="603"/>
 										<ChildItems>
 											<InputField name="РасшифровкаБезРазбиенияЗаявкаНаРасходованиеДенежныхСредств" id="606">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ЗаявкаНаРасходованиеДенежныхСредств</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:5f73a5c6-25c0-4ba5-928c-f1d6fc1f1ec0</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -4640,7 +4640,7 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияЗаявкаНаРасходованиеДенежныхСредствРасширеннаяПодсказка" id="608"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияЗаказ" id="609">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Заказ</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:61e69cf6-dcc1-4c9f-82e2-5767a0f6572b</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<DropListButton>false</DropListButton>
@@ -4649,28 +4649,28 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияЗаказРасширеннаяПодсказка" id="611"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияПартнер" id="612">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Партнер</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:3ede4b3e-f9d5-41e6-8cfd-44c0c4f5b075</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияПартнерКонтекстноеМеню" id="613"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПартнерРасширеннаяПодсказка" id="614"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорКредитаДепозита" id="615">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорКредитаДепозита</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:779d7b71-80c3-4ca7-8305-40a9bae37161</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаКонтекстноеМеню" id="616"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаРасширеннаяПодсказка" id="617"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорЗаймаСотруднику" id="618">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорЗаймаСотруднику</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:a6378026-0f32-48f1-8657-e04a1d676660</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуКонтекстноеМеню" id="619"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="620"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозита" id="627">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ТипСуммыКредитаДепозита</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:971fd886-585b-4de4-8194-171dcd1c7b9b</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ListChoiceMode>true</ListChoiceMode>
@@ -4678,14 +4678,14 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозитаРасширеннаяПодсказка" id="629"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорЛизинга" id="621">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорЛизинга</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:76cbd3a2-362a-468b-8565-0eec789b90ca</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорЛизингаКонтекстноеМеню" id="622"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЛизингаРасширеннаяПодсказка" id="623"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингу" id="624">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ТипПлатежаПоЛизингу</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:0fe9caa2-9b2c-4360-9df1-ab34bd777d00</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингуКонтекстноеМеню" id="625"/>
@@ -4710,7 +4710,7 @@
 												<ExtendedTooltip name="ГруппаСуммаВзаиморасчетовРасширеннаяПодсказка" id="631"/>
 												<ChildItems>
 													<InputField name="РасшифровкаБезРазбиенияСуммаВзаиморасчетов" id="632">
-														<DataPath>Items.РасшифровкаПлатежа.CurrentData.СуммаВзаиморасчетов</DataPath>
+														<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:833614f9-dc7b-4a92-bef3-9db7691edec8</DataPath>
 														<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 														<WarningOnEdit>
 															<v8:item>
@@ -4722,7 +4722,7 @@
 														<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаВзаиморасчетовРасширеннаяПодсказка" id="634"/>
 													</InputField>
 													<InputField name="РасшифровкаБезРазбиенияВалютаВзаиморасчетов" id="635">
-														<DataPath>Items.РасшифровкаПлатежа.CurrentData.ВалютаВзаиморасчетов</DataPath>
+														<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:d5c5a3a5-fa34-43db-bf5c-5f47a08bcacf</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4738,7 +4738,7 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредств" id="661">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтатьяДвиженияДенежныхСредств</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:01642c1a-e032-4607-b195-31837243efbf</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -4751,7 +4751,7 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="663"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияСтатьяРасходов" id="638">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтатьяРасходов</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:a01b5cce-646c-4a6e-95ea-26ceb3a6aa95</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<DropListButton>true</DropListButton>
@@ -4792,14 +4792,14 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияГруппаАналитикаРасширеннаяПодсказка" id="642"/>
 												<ChildItems>
 													<InputField name="РасшифровкаБезРазбиенияАналитикаРасходов" id="643">
-														<DataPath>Items.РасшифровкаПлатежа.CurrentData.АналитикаРасходов</DataPath>
+														<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:a62f150b-2a84-4eb9-b003-360d4a592033</DataPath>
 														<Width>38</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="РасшифровкаБезРазбиенияАналитикаРасходовКонтекстноеМеню" id="644"/>
 														<ExtendedTooltip name="РасшифровкаБезРазбиенияАналитикаРасходовРасширеннаяПодсказка" id="645"/>
 													</InputField>
 													<InputField name="РасшифровкаБезРазбиенияАналитикаАктивовПассивов" id="646">
-														<DataPath>Items.РасшифровкаПлатежа.CurrentData.АналитикаАктивовПассивов</DataPath>
+														<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:c59c9f6a-fbae-4a9c-b472-ed4f20b975f3</DataPath>
 														<Width>38</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="РасшифровкаБезРазбиенияАналитикаАктивовПассивовКонтекстноеМеню" id="647"/>
@@ -4808,7 +4808,7 @@
 												</ChildItems>
 											</UsualGroup>
 											<LabelField name="РасшифровкаБезРазбиенияПредставлениеОтраженияВРеглУчете" id="649">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ПредставлениеОтраженияВРеглУчете</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -4822,14 +4822,14 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="651"/>
 											</LabelField>
 											<InputField name="РасшифровкаБезРазбиенияПодразделение" id="652">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Подразделение</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:533f5fbe-14fe-4429-954a-a45b4f72806a</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияПодразделениеКонтекстноеМеню" id="653"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПодразделениеРасширеннаяПодсказка" id="654"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияОрганизация" id="655">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Организация</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:1f645d24-0612-433f-b35e-f94aefd1d6d6</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
@@ -4837,12 +4837,12 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияОрганизацияРасширеннаяПодсказка" id="657"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияПериодВозникновенияРасхода" id="666">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ПериодВозникновенияРасхода</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:f5b3e7d7-b540-4761-9efb-dbd471f834f6</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияПериодВозникновенияРасходаКонтекстноеМеню" id="667"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПериодВозникновенияРасходаРасширеннаяПодсказка" id="668"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияКомментарий" id="658">
-												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Комментарий</DataPath>
+												<DataPath>25:02023637-7868-4a5f-8576-835a76e0c9ba/0:eb991f01-a60b-48d5-9a75-d6675ffac2d1</DataPath>
 												<Width>38</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="РасшифровкаБезРазбиенияКомментарийКонтекстноеМеню" id="659"/>
@@ -4871,7 +4871,7 @@
 												<Height>6</Height>
 												<Footer>true</Footer>
 												<AutoAddIncomplete>false</AutoAddIncomplete>
-												<DataPath>Объект.РасшифровкаПлатежа</DataPath>
+												<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b</DataPath>
 												<SearchStringLocation>None</SearchStringLocation>
 												<ViewStatusLocation>None</ViewStatusLocation>
 												<SearchControlLocation>None</SearchControlLocation>
@@ -4924,13 +4924,13 @@
 												</SearchControlAddition>
 												<ChildItems>
 													<InputField name="РасшифровкаПлатежаНомерСтроки" id="28">
-														<DataPath>Объект.РасшифровкаПлатежа.LineNumber</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/-2</DataPath>
 														<Wrap>false</Wrap>
 														<ContextMenu name="РасшифровкаПлатежаНомерСтрокиКонтекстноеМеню" id="29"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаНомерСтрокиExtendedTooltip" id="280"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаЗаявкаНаРасходованиеДенежныхСредств" id="387">
-														<DataPath>Объект.РасшифровкаПлатежа.ЗаявкаНаРасходованиеДенежныхСредств</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:5f73a5c6-25c0-4ba5-928c-f1d6fc1f1ec0</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -4939,7 +4939,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаЗаявкаНаРасходованиеДенежныхСредствРасширеннаяПодсказка" id="389"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаЗаказ" id="34">
-														<DataPath>Объект.РасшифровкаПлатежа.Заказ</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:61e69cf6-dcc1-4c9f-82e2-5767a0f6572b</DataPath>
 														<Wrap>false</Wrap>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -4949,7 +4949,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаЗаказExtendedTooltip" id="281"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаПартнер" id="191">
-														<DataPath>Объект.РасшифровкаПлатежа.Партнер</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:3ede4b3e-f9d5-41e6-8cfd-44c0c4f5b075</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -4958,7 +4958,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаПартнерExtendedTooltip" id="282"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорКредитаДепозита" id="222">
-														<DataPath>Объект.РасшифровкаПлатежа.ДоговорКредитаДепозита</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:779d7b71-80c3-4ca7-8305-40a9bae37161</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -4967,13 +4967,13 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорКредитаДепозитаExtendedTooltip" id="283"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорЗаймаСотруднику" id="542">
-														<DataPath>Объект.РасшифровкаПлатежа.ДоговорЗаймаСотруднику</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:a6378026-0f32-48f1-8657-e04a1d676660</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаДоговорЗаймаСотрудникуКонтекстноеМеню" id="543"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="544"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорЛизинга" id="446">
-														<DataPath>Объект.РасшифровкаПлатежа.ДоговорЛизинга</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:76cbd3a2-362a-468b-8565-0eec789b90ca</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -4982,14 +4982,14 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорЛизингаРасширеннаяПодсказка" id="448"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаТипПлатежаПоЛизингу" id="449">
-														<DataPath>Объект.РасшифровкаПлатежа.ТипПлатежаПоЛизингу</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:0fe9caa2-9b2c-4360-9df1-ab34bd777d00</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ListChoiceMode>true</ListChoiceMode>
 														<ContextMenu name="РасшифровкаПлатежаТипПлатежаПоЛизингуКонтекстноеМеню" id="450"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаТипПлатежаПоЛизингуРасширеннаяПодсказка" id="451"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаТипСуммыКредитаДепозита" id="545">
-														<DataPath>Объект.РасшифровкаПлатежа.ТипСуммыКредитаДепозита</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:971fd886-585b-4de4-8194-171dcd1c7b9b</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>12</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -4998,15 +4998,15 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаТипСуммыКредитаДепозитаРасширеннаяПодсказка" id="547"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСумма" id="36">
-														<DataPath>Объект.РасшифровкаПлатежа.Сумма</DataPath>
-														<FooterDataPath>Объект.РасшифровкаПлатежа.TotalСумма</FooterDataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:7d546f0a-9866-4bdd-bd4c-2ce5f5044fa0</DataPath>
+														<FooterDataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/101000000:7d546f0a-9866-4bdd-bd4c-2ce5f5044fa0</FooterDataPath>
 														<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 														<Wrap>false</Wrap>
 														<ContextMenu name="РасшифровкаПлатежаСуммаКонтекстноеМеню" id="37"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаСуммаExtendedTooltip" id="285"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСуммаВзаиморасчетов" id="124">
-														<DataPath>Объект.РасшифровкаПлатежа.СуммаВзаиморасчетов</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:833614f9-dc7b-4a92-bef3-9db7691edec8</DataPath>
 														<SkipOnInput>true</SkipOnInput>
 														<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 														<WarningOnEdit>
@@ -5019,7 +5019,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовExtendedTooltip" id="286"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаВалютаВзаиморасчетов" id="122">
-														<DataPath>Объект.РасшифровкаПлатежа.ВалютаВзаиморасчетов</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:d5c5a3a5-fa34-43db-bf5c-5f47a08bcacf</DataPath>
 														<SkipOnInput>true</SkipOnInput>
 														<Title>
 															<v8:item>
@@ -5031,7 +5031,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаВалютаВзаиморасчетовExtendedTooltip" id="287"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредств" id="224">
-														<DataPath>Объект.РасшифровкаПлатежа.СтатьяДвиженияДенежныхСредств</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:01642c1a-e032-4607-b195-31837243efbf</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5046,7 +5046,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствExtendedTooltip" id="284"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСтатьяРасходов" id="91">
-														<DataPath>Объект.РасшифровкаПлатежа.СтатьяРасходов</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:a01b5cce-646c-4a6e-95ea-26ceb3a6aa95</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5089,7 +5089,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаГруппаАналитикаРасширеннаяПодсказка" id="521"/>
 														<ChildItems>
 															<InputField name="РасшифровкаПлатежаАналитикаРасходов" id="93">
-																<DataPath>Объект.РасшифровкаПлатежа.АналитикаРасходов</DataPath>
+																<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:a62f150b-2a84-4eb9-b003-360d4a592033</DataPath>
 																<ShowInHeader>false</ShowInHeader>
 																<ShowInFooter>false</ShowInFooter>
 																<Wrap>false</Wrap>
@@ -5101,7 +5101,7 @@
 																<ExtendedTooltip name="РасшифровкаПлатежаАналитикаРасходовExtendedTooltip" id="289"/>
 															</InputField>
 															<InputField name="РасшифровкаПлатежаАналитикаАктивовПассивов" id="522">
-																<DataPath>Объект.РасшифровкаПлатежа.АналитикаАктивовПассивов</DataPath>
+																<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:c59c9f6a-fbae-4a9c-b472-ed4f20b975f3</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInHeader>false</ShowInHeader>
 																<ShowInFooter>false</ShowInFooter>
@@ -5130,7 +5130,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаГруппаСчетРеглУчетаРасширеннаяПодсказка" id="526"/>
 														<ChildItems>
 															<InputField name="РасшифровкаПлатежаСчетРеглУчетаРасходов" id="527">
-																<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
+																<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInHeader>false</ShowInHeader>
 																<ShowInFooter>false</ShowInFooter>
@@ -5138,7 +5138,7 @@
 																<ExtendedTooltip name="РасшифровкаПлатежаСчетРеглУчетаРасходовРасширеннаяПодсказка" id="529"/>
 															</InputField>
 															<InputField name="РасшифровкаПлатежаСчетРеглУчетаАктивовПассивов" id="530">
-																<DataPath>Объект.РасшифровкаПлатежа.ПредставлениеОтраженияВРеглУчете</DataPath>
+																<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<EditMode>EnterOnInput</EditMode>
 																<CellHyperlink>true</CellHyperlink>
@@ -5150,7 +5150,7 @@
 														</ChildItems>
 													</ColumnGroup>
 													<InputField name="РасшифровкаПлатежаПодразделение" id="104">
-														<DataPath>Объект.РасшифровкаПлатежа.Подразделение</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:533f5fbe-14fe-4429-954a-a45b4f72806a</DataPath>
 														<Wrap>false</Wrap>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -5159,21 +5159,21 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаПодразделениеExtendedTooltip" id="290"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаОрганизация" id="432">
-														<DataPath>Объект.РасшифровкаПлатежа.Организация</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:1f645d24-0612-433f-b35e-f94aefd1d6d6</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаОрганизацияКонтекстноеМеню" id="433"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаОрганизацияРасширеннаяПодсказка" id="434"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаПериодВозникновенияРасхода" id="170">
-														<DataPath>Объект.РасшифровкаПлатежа.ПериодВозникновенияРасхода</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:f5b3e7d7-b540-4761-9efb-dbd471f834f6</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ChoiceListButton>true</ChoiceListButton>
 														<ContextMenu name="РасшифровкаПлатежаПериодВозникновенияРасходаКонтекстноеМеню" id="171"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаПериодВозникновенияРасходаExtendedTooltip" id="291"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаКомментарий" id="390">
-														<DataPath>Объект.РасшифровкаПлатежа.Комментарий</DataPath>
+														<DataPath>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:eb991f01-a60b-48d5-9a75-d6675ffac2d1</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInFooter>false</ShowInFooter>
 														<ContextMenu name="РасшифровкаПлатежаКомментарийКонтекстноеМеню" id="391"/>
@@ -5200,7 +5200,7 @@
 								<v8:content>Страница ведомости на выплату зарплаты</v8:content>
 							</v8:item>
 						</ToolTip>
-						<TitleDataPath>Объект.ВедомостиНаВыплатуЗарплаты.RowsCount</TitleDataPath>
+						<TitleDataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/100000000</TitleDataPath>
 						<ExtendedTooltip name="СтраницаВедомостиНаВыплатуЗарплатыРасширеннаяПодсказка" id="292"/>
 						<ChildItems>
 							<Table name="ВедомостиНаВыплатуЗарплаты" id="209">
@@ -5208,7 +5208,7 @@
 								<AutoAddIncomplete>false</AutoAddIncomplete>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
-								<DataPath>Объект.ВедомостиНаВыплатуЗарплаты</DataPath>
+								<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f</DataPath>
 								<SearchStringLocation>None</SearchStringLocation>
 								<ViewStatusLocation>None</ViewStatusLocation>
 								<SearchControlLocation>None</SearchControlLocation>
@@ -5250,19 +5250,19 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="ВедомостиНаВыплатуЗарплатыНомерСтроки" id="212">
-										<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.LineNumber</DataPath>
+										<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/-2</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ВедомостиНаВыплатуЗарплатыНомерСтрокиКонтекстноеМеню" id="213"/>
 										<ExtendedTooltip name="ВедомостиНаВыплатуЗарплатыНомерСтрокиExtendedTooltip" id="295"/>
 									</LabelField>
 									<InputField name="ВедомостиНаВыплатуЗарплатыВедомость" id="214">
-										<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.Ведомость</DataPath>
+										<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/0:a0db23da-0c28-4ae4-9c9e-96503518e660</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ВедомостиНаВыплатуЗарплатыВедомостьКонтекстноеМеню" id="215"/>
 										<ExtendedTooltip name="ВедомостиНаВыплатуЗарплатыВедомостьExtendedTooltip" id="296"/>
 									</InputField>
 									<InputField name="ВедомостиНаВыплатуЗарплатыФизическоеЛицо" id="427">
-										<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.ФизическоеЛицо</DataPath>
+										<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/0:7a4b8f9c-033a-419f-8b48-9c687fd03cf8</DataPath>
 										<Visible>false</Visible>
 										<Title>
 											<v8:item>
@@ -5278,7 +5278,7 @@
 										<ExtendedTooltip name="ВедомостиНаВыплатуЗарплатыФизическоеЛицоРасширеннаяПодсказка" id="429"/>
 									</InputField>
 									<InputField name="ВедомостиНаВыплатуЗарплатыСумма" id="216">
-										<DataPath>Объект.ВедомостиНаВыплатуЗарплаты.Сумма</DataPath>
+										<DataPath>1/0:96337205-15b0-49d2-886c-3712c5867b3f/0:84f0603d-cbe7-4cfb-aa44-bb4fc424359b</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ВедомостиНаВыплатуЗарплатыСуммаКонтекстноеМеню" id="217"/>
@@ -5444,11 +5444,11 @@
 				<MainAttribute>true</MainAttribute>
 				<SavedData>true</SavedData>
 				<UseAlways>
-					<Field>Объект.РасшифровкаПлатежа.ИдентификаторСтроки</Field>
 					<Field>Объект.RegisterRecords</Field>
+					<Field>1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b/0:aaa5920b-a6fd-4446-9b5e-4094b617f90c</Field>
 				</UseAlways>
 				<Columns>
-					<AdditionalColumns table="Объект.РасшифровкаПлатежа">
+					<AdditionalColumns table="1/0:abef6ed9-5fa1-4ab8-aac7-560e8227551b">
 						<Column name="АналитикаРасходовОбязательна" id="2">
 							<Title>
 								<v8:item>
